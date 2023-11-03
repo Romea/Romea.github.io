@@ -7,6 +7,8 @@ tags:
   - Post Formats
   - readability
   - standard
+header:
+  teaser: sassets/images/field.png
 ---
 
 This post has been updated and should show a modified date if used in a layout.
