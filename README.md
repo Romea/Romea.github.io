@@ -17,6 +17,10 @@ Once you are happy with the changes and the website compiles without errors, com
 - Contact and 404 pages are located in `_pages/`. *You don't need to touch any other file in this folder*
 - Images should be in `assets/images/`. Dont hesitate to create subfolders and keep things tidy.
 
+### Modify the main page
+- All the information is in `index.md`
+- To change one of the featured post, modify the `feature_row` object. Don't forget to also modify the url. 
+
 ### Add a reseach/project item
 To add a project or a research page, simply add a file in the corresponding folder.
 Don't forget to add a teaser image.
@@ -26,9 +30,10 @@ Don't forget to add a teaser image.
 2) [Optionnal] add a bibliography (`.bib`file) in `_bibliography/`.
 3) Create a new file in `_people/`.
 
-### Change the projects on the main page
-TODO
-
 ### Handling citations
 The website uses [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
 
+## Advanced editing
+- For a small css change, you can add your style at the end of `assets/css/main.scss`. It will override the basic style.
+- To modify the layouts of the pages, add or modify the files in `_layout/`. As we are using a remote theme, if a file is missing, you need to copy it from the remote theme and then modify. It should override the file of the remote theme.
+- The website is built using [Minimal-Mistakes](https://mmistakes.github.io/minimal-mistakes/). See the [doc](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) for any other modification.
