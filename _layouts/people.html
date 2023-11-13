@@ -34,7 +34,6 @@ layout: default
 					{% assign domain = url[1] | split: '/' %}
 					<span style="display:inline-block; width: 10px;"></span>
 					<img src="https://www.google.com/s2/favicons?domain={{url[0]}}//{{domain[0]}}" alt="{{link[1][0]}}">
-					
 						<a href={{link[1][1]}} target="_blank">{{link[1][0]}}</a>
 						<br>
 					{% endfor%}

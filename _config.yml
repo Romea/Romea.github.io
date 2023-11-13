@@ -168,11 +168,6 @@ scholar:
   type_order: [article, inproceedings]
   sort_by: year
   order: reverse
-  details_dir:    bibliography
-  type_names: { periodical: Special Issues (editor) }
-  bibliography_template: bib
-  repository: ./pdf
-  #bibtex_skip_fields: ["abstract", "month_numeric", "url", "doi"]
   bibtex_skip_fields: 
     - abstract
     - month_numeric
