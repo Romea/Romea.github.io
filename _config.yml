@@ -19,6 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Website of the research laboratory robotics and mobility for the agriculture and environments, INRAE France
   # twitter_username: username
 github_username: Romea
+repository: Romea/Romea.github.io
 # minimal_mistakes_skin: dark
 search: true
 
