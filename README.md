@@ -1,27 +1,34 @@
-# Minimal Mistakes remote theme starter
+# ROMEA website
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+## Basic information
+To modify and run locally the website, you need:
+- Jekyll/bundler
+- ruby 2.x (Warning: might be troublesome to install on recent linux distro)
 
-Contains basic configuration to get you a site with:
+Clone this repo, then 
+`bundle exec jekyll serve --incremental`
+to create a local instance of the website.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+Once you are happy with the changes and the website compiles without errors, commit and push, github will deploy automatically.
+*If you don't have the rights, push on another branch and create a PR*.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+## Modify the website
+- Posts are located in `_projects/`, `_research/`, `_jobs/` and `_people/` folders.
+- Contact and 404 pages are located in `_pages/`. *You don't need to touch any other file in this folder*
+- Images should be in `assets/images/`. Dont hesitate to create subfolders and keep things tidy.
 
----
+### Add a reseach/project item
+To add a project or a research page, simply add a file in the corresponding folder.
+Don't forget to add a teaser image.
 
-## Troubleshooting
+### Create a new people page
+1) Fill a new entry in `_data/authors/yml`.
+2) [Optionnal] add a bibliography (`.bib`file) in `_bibliography/`.
+3) Create a new file in `_people/`.
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+### Change the projects on the main page
+TODO
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+### Handling citations
+The website uses [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
+
