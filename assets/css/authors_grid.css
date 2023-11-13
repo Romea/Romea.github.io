@@ -1,0 +1,32 @@
+.sgrid {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust as needed for spacing between rows */
+}
+
+.author-image img {
+  width: 150px; /* Adjust as needed */
+  height: 150px; /* Maintain aspect ratio */
+  border-radius: 50%; /* Apply a circular border to the image */
+  margin-right: 20px; /* Adjust spacing between image and text */
+}
+
+.author-content {
+  flex: 1; /* Take remaining width */
+}
+
+.author-name {
+  margin: 0;
+  font-size: 1.2em; /* Adjust as needed */
+}
+
+/* Additional styling for the second span to italicize */
+.tile span:nth-child(2) {
+  font-style: italic;
+}
+
+/* Style for the expertise section */
+.tile b {
+  font-weight: bold;
+  margin-top: 5px; /* Adjust as needed for spacing */
+}

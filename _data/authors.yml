@@ -1,0 +1,49 @@
+# vim: set expandtab:
+
+# TEMPLATE
+# f_lastName: # unique id, usually, initial_lastName
+#  name: Full Name
+#  avatar: # best format: 160x160
+#  photo: # best format: portrait
+#  info: # extra title, if necessary
+#  web: /people/... # link to the personal web page
+#  email:
+#  start:  # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+#  level:  # prof, staff, postdoc, phd, master, intern, visitor
+#  topics: "topic 1, topic 2, topic 3, topic 4"
+
+
+# NOTE: Keep active members on top of the file
+
+# =====================
+# ACTIVE MEMBERS
+# =====================
+j_doe3: # unique id, usually, initial_lastName
+  name: John Doe
+#  avatar: avatar.jpg # best format: 160x160
+#  photo: # best format: portrait
+  info: kikou # extra title, if necessary
+#  email:
+  start: 2023-02-20 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: master # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Robotics, Estimation, Control Theory, Perception"
+
+j_laconte: # unique id, usually, initial_lastName
+  name: Johann Laconte
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: johann.laconte@inrae.fr
+  web: /people/jlaconte # link to the personal web page
+  start: 2023-02-20 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: master # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
+  social:
+    scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=cVFALvkAAAAJ"]
+    researchGate: ["Research Gate", "https://www.researchgate.net/profile/Johann_Laconte"]
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/jlaconte/"]
+    orcId: ["ORCID", "https://orcid.org/0000-0002-2274-9835"]
+

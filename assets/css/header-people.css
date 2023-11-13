@@ -1,0 +1,31 @@
+.author-header {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.author-picture {
+	text-align: right;
+	margin:20px;
+	width:auto
+}
+
+.author-stat {
+	flex: 2; /* 50% width */
+	padding: 20px; /* Adjust padding as needed */
+	box-sizing: border-box; /* Include padding in the total width */
+
+	h1 {
+		margin: 0;
+		padding: 0;
+		font-size: xxx-large;
+	}
+}
+
+.author-follow {
+	flex: 1;
+	margin-left: auto;
+	text-align: right;
+	margin-top:20px;
+	margin-right:5px;
+}

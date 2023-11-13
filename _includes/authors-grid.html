@@ -1,0 +1,78 @@
+<link rel="stylesheet" href="/assets/css/authors_grid.css">
+
+{% assign count = 0 %}
+{% for item in site.data.authors %}
+
+  {% assign author = item[1] %}
+	{% if author.level == level and author.end == blank %}
+		{% assign count = count | plus: 1 %}
+	{% endif %}
+	
+{% endfor %}
+
+
+{% if count > 0 %}
+
+
+{% assign locale = site.data.messages.locales[page.locale]%}
+{% if count > 1 %}
+<h1> {{locale.[level].plurial}} </h1>
+{% else %}
+<h1> {{locale.[level].singular}} </h1>
+{% endif %}
+
+<div class="grid">
+{% for item in site.data.authors %}
+{% assign author = item[1] %}
+{% if author.level == level and author.end == blank %}
+
+<div class="tile">
+	{%if author.web %}
+		{%if author.webcontains "http" %}
+			<a href="{{ author.web }}" title="{{author.name}}" target="_blank">
+		{%else%}
+			<a href="{{ site.url }}{{ author.web }}" title="{{author.name}}">
+		{%endif%}
+	{%endif%}
+
+	<div class="sgrid">
+		<div class="author-image">
+			{% if author.avatar %}
+			<img src="{{ site.url }}/assets/people/{{ author.avatar }}" alt="avatar" itemprop="image">
+			{% else %}
+			<img src="{{ site.url }}/assets/people/bio-photo.jpg" alt="avatar" itemprop="image">
+			{% endif %}
+		</div><!-- ./author-image -->
+		<div class="author-content">
+			<h3 class="author-name" itemprop="author">
+				{{ author.name }}
+			</h3>
+			{{author.info}}
+			{% if author.info %}
+				<br>
+			{% endif %}
+
+
+		{% if author.start %}
+		<span style="font-style: italic;">Started on 
+			<time datetime="{{ author.start | date: "%Y-%m-%d" }}">
+				{{ author.start | date: "%B %d, %Y" }}
+			</time>
+		</span>
+		<br>
+		{% endif %}
+		{% if author.topics%}
+		<b>Expertise:</b> {{author.topics}}
+		{% endif %}
+		</div><!-- ./author-content -->
+	</div>
+
+	{% if author.web%}
+			</a>
+			{% endif %}
+</div><!-- /.tile -->
+
+{% endif %}
+{% endfor %}
+</div><!-- /.grid -->
+{% endif %} <!-- prof -->

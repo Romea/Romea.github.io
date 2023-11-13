@@ -1,0 +1,42 @@
+# vim: set expandtab:
+# Messages for localization
+
+locales:
+  # English translation
+  # -------------------
+  en: &DEFAULT_EN
+    overview: "Overview"
+    toc: "Table of Contents"
+    written_by: "Written by"
+    updated: "Updated"
+    started_on: "Started on"
+    share: "Share on"
+    site_title: "Northern Robotics Laboratory"
+    home: "/"
+    no_translation: "Only in French"
+    follow_me: "Follow me"
+    prof:
+      singular: "Professor"
+      plurial: "Professors"
+    staff:
+      singular: "Professional"
+      plurial: "Professionals"
+    postdoc:
+      singular: "Postdoc"
+      plurial: "Postdocs"
+    phd:
+      singular: "Ph.D. Student"
+      plurial: "Ph.D. Students"
+    master:
+      singular: "M.Sc. Student"
+      plurial: "M.Sc. Students"
+    intern:
+      singular: "Intern"
+      plurial: "Interns"
+    visitor:
+      singular: "Visitor"
+      plurial: "Visitors"
+  en_US:
+    <<: *DEFAULT_EN     # use English translation for en_US
+  en_UK:
+    <<: *DEFAULT_EN     # use English translation for en_UK
