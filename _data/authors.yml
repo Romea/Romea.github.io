@@ -19,16 +19,65 @@
 # =====================
 # ACTIVE MEMBERS
 # =====================
-j_doe3: # unique id, usually, initial_lastName
-  name: John Doe
-#  avatar: avatar.jpg # best format: 160x160
-#  photo: # best format: portrait
-  info: kikou # extra title, if necessary
-#  email:
-  start: 2023-02-20 # AAAA-MM-DD
+l_albassit: # unique id, usually, initial_lastName
+  name: Lama Al Bassit
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: lama.al-bassit@inrae.fr
+  web: /people/lalbassit # link to the personal web page
+  start: 2020-01-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
-  level: master # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "Robotics, Estimation, Control Theory, Perception"
+  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
+
+c_debain: # unique id, usually, initial_lastName
+  name: Christophe Debain
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: christophe.debain@inrae.fr
+  web: /people/cdebain # link to the personal web page
+  start: 2020-01-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: prof # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
+
+c_pierre: # unique id, usually, initial_lastName
+  name: Cyrille Pierre
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: cyrille.pierre@inrae.fr
+  web: /people/cpierre # link to the personal web page
+  start: 2020-01-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
+
+f_gaurier: # unique id, usually, initial_lastName
+  name: Florian Gaurier
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: florian.gaurier@inrae.fr
+  web: /people/fgaurier # link to the personal web page
+  start: 2020-01-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: enginner # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
+
+g_jeanneau: # unique id, usually, initial_lastName
+  name: Guillaume Jeanneau
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: guillaume.jeanneau@inrae.fr
+  web: /people/gjeanneau # link to the personal web page
+  start: 2020-01-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: postdoc # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
 
 j_laconte: # unique id, usually, initial_lastName
   name: Johann Laconte
@@ -37,9 +86,9 @@ j_laconte: # unique id, usually, initial_lastName
 #  info: # extra title, if necessary
   email: johann.laconte@inrae.fr
   web: /people/jlaconte # link to the personal web page
-  start: 2023-02-20 # AAAA-MM-DD
+  start: 2023-10-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
-  level: master # prof, staff, postdoc, phd, master, intern, visitor
+  level: prof # prof, staff, postdoc, phd, master, intern, visitor
   topics: "X, Y, Z"
   social:
     scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=cVFALvkAAAAJ"]
@@ -47,3 +96,39 @@ j_laconte: # unique id, usually, initial_lastName
     linkedin: ["Linkedin", "https://www.linkedin.com/in/jlaconte/"]
     orcId: ["ORCID", "https://orcid.org/0000-0002-2274-9835"]
 
+j_laneurit: # unique id, usually, initial_lastName
+  name: Jean Laneurit
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: jean.laneurit@inrae.fr
+  web: /people/jlaneurit # link to the personal web page
+  start: 2020-01-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
+
+r_lenain: # unique id, usually, initial_lastName
+  name: Roland Lenain
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  email: roland.lenain@inrae.fr
+  web: /people/rlenain # link to the personal web page
+  start: 2020-01-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: prof # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "X, Y, Z"
+
+
+# =====================
+# INACTIVE MEMBERS
+# =====================
+d_iberraken: # unique id, usually, initial_lastName
+  name: Dimia Iberraken
+  avatar: bio-photo.jpg # best format: 160x160
+  photo: bio-photo.jpg 
+#  info: # extra title, if necessary
+  start: 2020-01-01 # AAAA-MM-DD
+  end:   2023-07-01, keep empty if still in the lab
+  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor

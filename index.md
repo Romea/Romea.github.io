@@ -7,12 +7,10 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/field.png
   caption: "Photo credit: someone"
-excerpt: "Research lab about [...] <br> 
-          [...] <br>
-          [...]
-         "
+excerpt: "
+Our lab focuses developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
+"
 intro: 
-  - excerpt: 'Do we want an intro here?'
 feature_row:
   - image_path: assets/images/placeholder_300x200.png
     alt: "placeholder_300x200 image 1"

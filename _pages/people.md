@@ -1,5 +1,5 @@
 ---
-title: People
+title: 
 layout: single
 permalink: /people/
 locale: en
@@ -10,7 +10,7 @@ locale: en
 {% assign level = 'prof' %}
 {% include  authors-grid.html %}
 
-{% assign level = 'staff' %}
+{% assign level = 'engineer' %}
 {% include  authors-grid.html %}
 
 {% assign level = 'postdoc' %}

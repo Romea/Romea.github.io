@@ -18,9 +18,9 @@ locales:
     prof:
       singular: "Professor"
       plurial: "Professors"
-    staff:
-      singular: "Professional"
-      plurial: "Professionals"
+    engineer:
+      singular: "Research Engineer"
+      plurial: "Research Engineers"
     postdoc:
       singular: "Postdoc"
       plurial: "Postdocs"
