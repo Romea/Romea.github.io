@@ -3,8 +3,7 @@
 # TEMPLATE
 # f_lastName: # unique id, usually, initial_lastName
 #  name: Full Name
-#  avatar: # best format: 160x160
-#  photo: # best format: portrait
+#  avatar: # best format: 250x250
 #  info: # extra title, if necessary
 #  web: /people/... # link to the personal web page
 #  email:
@@ -21,8 +20,7 @@
 # =====================
 l_albassit: # unique id, usually, initial_lastName
   name: Lama Al Bassit
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: lama.al-bassit@inrae.fr
   web: /people/lalbassit # link to the personal web page
@@ -33,8 +31,7 @@ l_albassit: # unique id, usually, initial_lastName
 
 c_debain: # unique id, usually, initial_lastName
   name: Christophe Debain
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: christophe.debain@inrae.fr
   web: /people/cdebain # link to the personal web page
@@ -45,8 +42,7 @@ c_debain: # unique id, usually, initial_lastName
 
 c_pierre: # unique id, usually, initial_lastName
   name: Cyrille Pierre
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: cyrille.pierre@inrae.fr
   web: /people/cpierre # link to the personal web page
@@ -57,8 +53,7 @@ c_pierre: # unique id, usually, initial_lastName
 
 f_gaurier: # unique id, usually, initial_lastName
   name: Florian Gaurier
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: florian.gaurier@inrae.fr
   web: /people/fgaurier # link to the personal web page
@@ -69,8 +64,7 @@ f_gaurier: # unique id, usually, initial_lastName
 
 g_jeanneau: # unique id, usually, initial_lastName
   name: Guillaume Jeanneau
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: guillaume.jeanneau@inrae.fr
   web: /people/gjeanneau # link to the personal web page
@@ -81,8 +75,7 @@ g_jeanneau: # unique id, usually, initial_lastName
 
 j_laconte: # unique id, usually, initial_lastName
   name: Johann Laconte
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: johannLaconte_square.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: johann.laconte@inrae.fr
   web: /people/jlaconte # link to the personal web page
@@ -98,8 +91,7 @@ j_laconte: # unique id, usually, initial_lastName
 
 j_laneurit: # unique id, usually, initial_lastName
   name: Jean Laneurit
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: jean.laneurit@inrae.fr
   web: /people/jlaneurit # link to the personal web page
@@ -110,8 +102,7 @@ j_laneurit: # unique id, usually, initial_lastName
 
 r_lenain: # unique id, usually, initial_lastName
   name: Roland Lenain
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: roland.lenain@inrae.fr
   web: /people/rlenain # link to the personal web page
@@ -126,8 +117,7 @@ r_lenain: # unique id, usually, initial_lastName
 # =====================
 d_iberraken: # unique id, usually, initial_lastName
   name: Dimia Iberraken
-  avatar: bio-photo.jpg # best format: 160x160
-  photo: bio-photo.jpg 
+  avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   start: 2020-01-01 # AAAA-MM-DD
   end:   2023-07-01, keep empty if still in the lab

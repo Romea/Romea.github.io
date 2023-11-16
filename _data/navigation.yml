@@ -1,8 +1,10 @@
 main:
   - title: "Projects"
     url: /projects/
-  - title: "Reseach"
+  - title: "Research"
     url: /research/
+  - title: "Equipment"
+    url: /equipment/
   - title: "People"
     url: /people/
   - title: "Open positions"

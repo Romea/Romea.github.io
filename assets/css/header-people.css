@@ -7,7 +7,7 @@
 .author-picture {
 	text-align: right;
 	margin:20px;
-	width:auto
+	max-width: 250px;
 }
 
 .author-stat {

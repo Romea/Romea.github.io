@@ -12,4 +12,4 @@ author: r_lenain # change with your own
 blabla about you
 
 # Publications
-<!-- {% bibliography --file JohnDoe %} -->
+{% bibliography --file rlenain %}
