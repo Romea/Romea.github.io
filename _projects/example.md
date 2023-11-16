@@ -1,8 +1,8 @@
 ---
 title: "My project"
 header:
-    teaser: assets/images/placeholder_300x200.png
-    # image: assets/images/placeholder_300x200.png
+    teaser: assets/images/placeholders/300x200.jpg
+    # image: assets/images/placeholder_300x200.jpg
 ---
 
 We do stuff. *Cool* stuff.

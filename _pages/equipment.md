@@ -6,7 +6,7 @@ permalink: /equipment/
 
 <link rel="stylesheet" href="/assets/css/equipment.css">
 {% assign robots_items = site.equipment %}
-<h2>Robotic platforms</h2>
+<h1>Robotic platforms</h1>
   {% for item in robots_items %}
   {% if item.type == 'robot' %}
    <div class="wide-image">
@@ -20,8 +20,9 @@ permalink: /equipment/
   {% endif %}
   {% endfor %}
 
+<br>
 {% assign grounds_items = site.equipment %}
-<h2>Experimental grounds</h2>
+<h1>Experimental grounds</h1>
   {% for item in grounds_items %}
   {% if item.type == 'ground' %}
    <div class="wide-image">

@@ -130,6 +130,14 @@ defaults:
       layout: single
       author_profile: false
       share: false
+  # collaborations
+  - scope:
+      path: ""
+      type: collaborations
+    values:
+      layout: single
+      author_profile: false
+      share: false
   # people
   - scope:
       path: ""
@@ -165,6 +173,9 @@ collections:
   equipment:
     output: true
     permalink: /equipment/:path/
+  collaborations:
+    output: true
+    permalink: /collaborations/:path/
   people:
     output: true
     permalink: /people/:path/

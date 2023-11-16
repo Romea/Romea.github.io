@@ -12,18 +12,18 @@ Our lab focuses developing autonomous robots in natural settings, for the ecolog
 "
 intro: 
 feature_row:
-  - image_path: assets/images/placeholder_300x200.png
+  - image_path: /assets/images/placeholders/300x200.jpg
     alt: "placeholder_300x200 image 1"
     title: "Placeholder 1"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: assets/images/placeholder_300x200.png
+  - image_path: /assets/images/placeholders/300x200.jpg
     alt: "placeholder_300x200 image 2"
     title: "Placeholder 2"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
     url: "research/2010-01-07-post-modified/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: assets/images/placeholder_300x200.png
+  - image_path: /assets/images/placeholders/300x200.jpg
     title: "Placeholder 3"
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
