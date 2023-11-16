@@ -5,7 +5,7 @@ permalink: /collaborations/
 ---
 
 <link rel="stylesheet" href="/assets/css/collaborations.css">
-{% assign items = site.collaborations %}
+{% assign items = site.collaborations  | sort: 'title'%}
 <h1>International Collaborations</h1>
   {% for item in items %}
   {% if item.type == 'international' %}
@@ -21,7 +21,7 @@ permalink: /collaborations/
   {% endfor %}
 
 <br>
-{% assign grounds_items = site.equipment %}
+{% assign grounds_items = site.equipment  | sort: 'title'%}
 <h1>National Collaborations</h1>
   {% for item in items %}
   {% if item.type == 'national' %}
