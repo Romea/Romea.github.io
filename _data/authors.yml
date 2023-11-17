@@ -59,7 +59,7 @@ f_gaurier: # unique id, usually, initial_lastName
   web: /people/fgaurier # link to the personal web page
   start: 2020-01-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
-  level: enginner # prof, engineer, postdoc, phd, master, intern, visitor
+  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
   topics: "X, Y, Z"
 
 g_jeanneau: # unique id, usually, initial_lastName
@@ -82,7 +82,7 @@ j_laconte: # unique id, usually, initial_lastName
   start: 2023-10-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: prof # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "X, Y, Z"
+  topics: "State Estimation, Traversability, Autonomous Navigation, Applied Mathematics"
   social:
     scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=cVFALvkAAAAJ"]
     researchGate: ["Research Gate", "https://www.researchgate.net/profile/Johann_Laconte"]
