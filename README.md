@@ -5,6 +5,8 @@ To modify and run locally the website, you need:
 - Jekyll/bundler
 - ruby 2.x (Warning: might be troublesome to install on recent linux distro)
 
+**If you only need to modify an existing page, you can do it online and avoid all the tedious aspects of running the website on local. Just use the github editor!**
+
 Clone this repo, then 
 `bundle exec jekyll serve --incremental`
 to create a local instance of the website.
