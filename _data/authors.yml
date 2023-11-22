@@ -57,10 +57,14 @@ f_gaurier: # unique id, usually, initial_lastName
 #  info: # extra title, if necessary
   email: florian.gaurier@inrae.fr
   web: /people/fgaurier # link to the personal web page
-  start: 2020-01-01 # AAAA-MM-DD
+  start: 2022-03-14 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
-  topics: "X, Y, Z"
+  topics: "Pointcloud Processing, Environment Recognition"
+  social:
+    scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=3LJhSRoAAAAJ"]
+    researchGate: ["Research Gate", "https://www.researchgate.net/profile/Florian-Gaurier"]
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/florian-gaurier-510740226/"]
 
 g_jeanneau: # unique id, usually, initial_lastName
   name: Guillaume Jeanneau
