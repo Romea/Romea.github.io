@@ -14,4 +14,4 @@ This robot has entirely been designed and built by the ROMEA team and financed b
 
 # Key Projects
 
-This robot has been used in the [CCMSA](/projects/ccmsa.md) project.
+This robot has been used in the [CCMSA](/projects/ccmsa) project.
