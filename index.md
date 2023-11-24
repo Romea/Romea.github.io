@@ -6,16 +6,19 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/field.png
-  caption: "Photo credit: someone"
+#  caption: "Photo credit: someone"
 excerpt: "
 Our lab focuses developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
 "
 intro: 
 feature_row:
-  - image_path: /assets/images/placeholders/300x200.jpg
+  - image_path: /assets/images/hiring_300x200.jpg
     alt: "placeholder_300x200 image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "Several open positions!"
+    excerpt: "We are hiring PhD and Master students."
+    url: "/jobs"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/placeholders/300x200.jpg
     alt: "placeholder_300x200 image 2"
     title: "Placeholder 2"
@@ -28,7 +31,6 @@ feature_row:
     excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
-{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
