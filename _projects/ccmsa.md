@@ -1,7 +1,7 @@
 ---
 title: "Autonomous Pulverization for Precision farming"
 header:
-    teaser: assets/images/placeholders/300x200.jpg
+    teaser: assets/images/projects/pulverization/adap2e_pulve_drone.jpg
     image: assets/images/projects/pulverization/adap2e_pulve_drone.jpg
 ---
 
