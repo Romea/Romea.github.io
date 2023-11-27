@@ -9,7 +9,7 @@ permalink: /people/gjeanneau/ # change with your own data
 author: g_jeanneau # change with your own 
 ---
 
-blabla about you
+blabla about you2
 
 # Publications
 <!-- {% bibliography --file JohnDoe %} -->
