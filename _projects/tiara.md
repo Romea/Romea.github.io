@@ -2,7 +2,7 @@
 title: "TIARA : Toward Intelligent Adaptable Robots for Agriculture"
 header:
     teaser: assets/images/projects/tiara/tiara_demo.jpg
-    image: assets/images/projects/tiara/tiara_demo.png
+    image: assets/images/projects/tiara/tiara_demo.jpg
 ---
 
 Robotics is increasingly seen as a means of supporting the ecological transition in agriculture, while reducing the arduousness of the work involved. The UR TSCF, and in particular its ROMEA team, has been working for several years on the challenges of agricultural robotics, through numerous projects; the results have demonstrated its ability to develop robots adaptable to natural environments and different contexts, in order to carry out a wide range of tasks.
