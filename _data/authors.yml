@@ -66,6 +66,19 @@ f_gaurier: # unique id, usually, initial_lastName
     researchGate: ["Research Gate", "https://www.researchgate.net/profile/Florian-Gaurier"]
     linkedin: ["Linkedin", "https://www.linkedin.com/in/florian-gaurier-510740226/"]
 
+c_chupin: # unique id, usually, initial_lastName
+  name: Clément Chupin
+  avatar: bio-photo.jpg # best format: 250x250
+#  info: # extra title, if necessary
+  email: clement.chupin@inrae.fr
+  web: /people/cchupin # link to the personal web page
+  start: 2023-03-06 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
+  topics: "Artificial Intelligence, Pointcloud Processing"
+  social:
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/cl%C3%A9ment-chupin-5a8a46152/"]
+
 g_jeanneau: # unique id, usually, initial_lastName
   name: Guillaume Jeanneau
   avatar: bio-photo.jpg # best format: 250x250
