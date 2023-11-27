@@ -81,14 +81,18 @@ c_chupin: # unique id, usually, initial_lastName
 
 g_jeanneau: # unique id, usually, initial_lastName
   name: Guillaume Jeanneau
-  avatar: bio-photo.jpg # best format: 250x250
+  avatar: gjeanneau_square.jpg # best format: 250x250
 #  info: # extra title, if necessary
   email: guillaume.jeanneau@inrae.fr
   web: /people/gjeanneau # link to the personal web page
-  start: 2020-01-01 # AAAA-MM-DD
+  start: 2022-11-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: postdoc # prof, engineer, postdoc, phd, master, intern, visitor
-  topics: "X, Y, Z"
+  topics: "State Estimation applied to Localisation, Safety in human-robot interaction, Robot dynamics, Applied Mathematics"
+  social:
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/guillaume-jeanneau363544"]
+    #orcId: ["ORCID","https://orcid.org/0000-0003-4522-2179"]
+    researchGate: ["Research Gate","https://www.researchgate.net/profile/Guillaume-Jeanneau"]
 
 j_laconte: # unique id, usually, initial_lastName
   name: Johann Laconte
