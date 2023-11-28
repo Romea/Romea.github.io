@@ -5,7 +5,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/field.png
+  overlay_image: /assets/images/field.jpg
 #  caption: "Photo credit: someone"
 excerpt: "
 Our lab focuses developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
