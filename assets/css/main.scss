@@ -32,3 +32,13 @@ search: false
 	text-align: center;
 }
 
+@media (min-width: 80em) {
+  #main {
+    max-width: 1700px;
+  }
+}
+
+.page .page__inner-wrap .page__content, .page .page__inner-wrap .page__meta, .page .page__inner-wrap .comment__date, .page .page__inner-wrap .page__share {
+	text-align: justify;
+}
+
