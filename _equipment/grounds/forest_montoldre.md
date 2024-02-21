@@ -5,7 +5,7 @@ header:
     teaser: /assets/images/equipment/forest_1200x300.jpg
     overlay_image: /assets/images/equipment/forest_1200x300.jpg
     overlay_filter: 0.3
-excerpt: "Our own forest to do whatever we want in it"
+excerpt: "Research Forest, Montoldre, France"
 ---
 
-This place is beautiful
+This research forest, situated adjacent to a farm, is characterized by typical vegetation found in this biome, along with trails sufficiently wide to accommodate the passage of wheeled robots.

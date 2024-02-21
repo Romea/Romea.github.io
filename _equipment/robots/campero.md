@@ -5,7 +5,7 @@ header:
     teaser: /assets/images/equipment/campero_1200x300.jpg
     overlay_image: /assets/images/equipment/campero_1200x300.jpg
     overlay_filter: 0.3
-excerpt: "Campero: a beautiful robot"
+excerpt: "Campero"
 ---
 
-This robot is beautiful
+This robot is equipped with a robotic arm and a stereo camera, allowing the joint control of the mobile platform and the arm.

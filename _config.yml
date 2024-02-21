@@ -115,14 +115,6 @@ defaults:
       layout: single
       author_profile: false
       share: false
-  # projects
-  - scope:
-      path: ""
-      type: projects
-    values:
-      layout: single
-      author_profile: false
-      share: false
   # equipment
   - scope:
       path: ""
@@ -168,9 +160,6 @@ collections:
   research:
     output: true
     permalink: /research/:path/
-  projects:
-    output: true
-    permalink: /projects/:path/
   equipment:
     output: true
     permalink: /equipment/:path/

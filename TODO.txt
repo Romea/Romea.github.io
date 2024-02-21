@@ -1,2 +1,0 @@
-- onglet equipment (robot + montoldre)
-- onglet collaborations
