@@ -1,13 +1,13 @@
 main:
   - title: "Research"
     url: /research/
-  - title: "Equipment"
-    url: /equipment/
+    #  - title: "Equipment"
+    #    url: /equipment/
   - title: "Collaborations"
     url: /collaborations/
   - title: "People"
     url: /people/
-  - title: "Open positions"
-    url: /jobs/
+    #   - title: "Open positions"
+    #     url: /jobs/
   - title: "Contact Us"
     url: /contact/

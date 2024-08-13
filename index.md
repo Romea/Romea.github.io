@@ -1,5 +1,5 @@
 ---
-title: "ROMEA <br> Robotics and Mobility for the Environment and the Agriculture"
+title: "R-LEAF <br> Robotics Laboratory for the Environment and Autonomous Farming"
 layout: splash
 date: 2016-03-23T11:48:41-04:00
 header:
@@ -10,15 +10,15 @@ header:
 excerpt: "
 Our lab focuses developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
 <br>
-We are part of [INRAE](https://www.inrae.fr/en), the French National Research Institute for Agriculture, Food and the Environment.
+We are part of [INRAE](https://www.inrae.fr/en), the French National Research Institute for Agriculture, Food and the Environment, in the [Technologies and Information Systems for Agrosystems Research Unit](https://tscf.clermont.hub.inrae.fr/).
 "
 intro: 
 feature_row:
-  - image_path: /assets/images/hiring_300x200.jpg
+  - image_path: /assets/images/placeholders/300x200.jpg
     alt: "placeholder_300x200 image 1"
-    title: "Several open positions!"
-    excerpt: "We are hiring PhD and Master students."
-    url: "/jobs"
+    title: "Research highlight 1"
+    excerpt: "Description of the research highlight"
+    url: "/research"
     btn_label: "Read More"
     btn_class: "btn--primary"
 #  - image_path: /assets/images/placeholders/300x200.jpg

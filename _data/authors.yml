@@ -18,16 +18,6 @@
 # =====================
 # ACTIVE MEMBERS
 # =====================
-c_pierre: # unique id, usually, initial_lastName
-  name: Cyrille Pierre
-  avatar: bio-photo.jpg # best format: 250x250
-#  info: # extra title, if necessary
-  email: cyrille.pierre@inrae.fr
-  web: /people/cpierre # link to the personal web page
-  start: 2020-01-01 # AAAA-MM-DD
-#  end:  # AAAA-MM-DD, keep empty if still in the lab
-  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
-  topics: "X, Y, Z"
 j_laconte: # unique id, usually, initial_lastName
   name: Johann Laconte
   avatar: johannLaconte_square.jpg # best format: 250x250
@@ -44,13 +34,27 @@ j_laconte: # unique id, usually, initial_lastName
     linkedin: ["Linkedin", "https://www.linkedin.com/in/jlaconte/"]
     orcId: ["ORCID", "https://orcid.org/0000-0002-2274-9835"]
 
+a_montanaro: # unique id, usually, initial_lastName
+  name: Alix Montanaro
+  avatar: bio-photo.jpg # best format: 250x250
+#  info: # extra title, if necessary
+  start: 2024-04-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: intern # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Iterative Closest Point (ICP)"
+
 # =====================
 # INACTIVE MEMBERS
 # =====================
-#d_iberraken: # unique id, usually, initial_lastName
-#  name: John Doe
-#  avatar: bio-photo.jpg # best format: 250x250
-##  info: # extra title, if necessary
-#  start: 2020-01-01 # AAAA-MM-DD
-#  end:   2023-07-01, keep empty if still in the lab
-#  level: engineer # prof, engineer, postdoc, phd, master, intern, visitor
+f_philiipe: # unique id, usually, initial_lastName
+  name: Florian Philippe
+  avatar: bio-photo.jpg # best format: 250x250
+  start: 2024-05-01 # AAAA-MM-DD
+  end:   2024-06-01, # keep empty if still in the lab
+  level: visitor # prof, engineer, postdoc, phd, master, intern, visitor
+a_bras: # unique id, usually, initial_lastName
+  name: Alexis Bras
+  avatar: bio-photo.jpg # best format: 250x250
+  start: 2024-05-01 # AAAA-MM-DD
+  end:   2024-08-01, # keep empty if still in the lab
+  level: intern # prof, engineer, postdoc, phd, master, intern, visitor
