@@ -15,7 +15,7 @@ Once you are happy with the changes and the website compiles without errors, com
 *If you don't have the rights, push on another branch and create a PR*.
 
 ## Modify the website
-- Posts are located in `_projects/`, `_research/`, `_jobs/` and `_people/` folders.
+- Posts are located in `_research/` and `_people/` folders.
 - Contact and 404 pages are located in `_pages/`. *You don't need to touch any other file in this folder*
 - Images should be in `assets/images/`. Dont hesitate to create subfolders and keep things tidy.
 
@@ -23,9 +23,9 @@ Once you are happy with the changes and the website compiles without errors, com
 - All the information is in `index.md`
 - To change one of the featured post, modify the `feature_row` object. Don't forget to also modify the url. 
 
-### Add a reseach/project item
-To add a project or a research page, simply add a file in the corresponding folder.
-Don't forget to add a teaser image.
+### Add a reseach item
+To add a research page, simply add a file in the corresponding folder.
+Don't forget to update the teaser image.
 
 ### Create a new people page
 1) Fill a new entry in `_data/authors/yml`.
