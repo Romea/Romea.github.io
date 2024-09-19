@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/field.jpg
 #  caption: "Photo credit: someone"
 excerpt: "
-Our lab focuses developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
+Our lab focuses on developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
 <br>
 We are part of [INRAE](https://www.inrae.fr/en), the French National Research Institute for Agriculture, Food and the Environment, in the [Technologies and Information Systems for Agrosystems Research Unit](https://tscf.clermont.hub.inrae.fr/).
 "

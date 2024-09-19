@@ -124,13 +124,13 @@ defaults:
       author_profile: false
       share: false
   # collaborations
-  - scope:
-      path: ""
-      type: collaborations
-    values:
-      layout: single
-      author_profile: false
-      share: false
+  #- scope:
+  #    path: ""
+  #    type: collaborations
+  #  values:
+  #    layout: single
+  #    author_profile: false
+  #    share: false
   # people
   - scope:
       path: ""
@@ -160,18 +160,18 @@ collections:
   research:
     output: true
     permalink: /research/:path/
-  equipment:
-    output: true
-    permalink: /equipment/:path/
-  collaborations:
-    output: true
-    permalink: /collaborations/:path/
+    # equipment:
+    #   output: true
+    #   permalink: /equipment/:path/
+    #collaborations:
+    #  output: true
+    #  permalink: /collaborations/:path/
   people:
     output: true
     permalink: /people/:path/
-  jobs:
-    output: true
-    permalink: /jobs/:path/
+    # jobs:
+    #   output: true
+    #   permalink: /jobs/:path/
 
 
 # Plugin configuration : Scholar

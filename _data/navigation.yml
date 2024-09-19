@@ -3,8 +3,6 @@ main:
     url: /research/
     #  - title: "Equipment"
     #    url: /equipment/
-  - title: "Collaborations"
-    url: /collaborations/
   - title: "People"
     url: /people/
     #   - title: "Open positions"

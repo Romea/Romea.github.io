@@ -43,6 +43,34 @@ a_montanaro: # unique id, usually, initial_lastName
   level: intern # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Iterative Closest Point (ICP)"
 
+z_khizar: # unique id, usually, initial_lastName
+  name: Zaar Khizar
+  avatar: bio-photo.jpg # best format: 250x250
+  web: /people/zkhizar
+#  info: # extra title, if necessary
+  start: 2024-08-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Traversability, State Estimation"
+
+a_dannaoui: # unique id, usually, initial_lastName
+  name: Abdel-Raouf Dannaoui
+  avatar: bio-photo.jpg # best format: 250x250
+#  info: # extra title, if necessary
+  start: 2024-09-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Mapping, Iterative Closest Point (ICP)"
+
+t_montagnon: # unique id, usually, initial_lastName
+  name: Tom Montagnon
+  avatar: bio-photo.jpg # best format: 250x250
+#  info: # extra title, if necessary
+  start: 2024-10-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Control, Soil Deformation"
+
 # =====================
 # INACTIVE MEMBERS
 # =====================
