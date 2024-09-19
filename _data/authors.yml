@@ -51,7 +51,9 @@ z_khizar: # unique id, usually, initial_lastName
   start: 2024-08-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "Traversability, State Estimation"
+  topics: "Traversability, State Estimation, SLAM, Computer Vision"
+  social:
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/zaar-ali"]
 
 a_dannaoui: # unique id, usually, initial_lastName
   name: Abdel-Raouf Dannaoui
