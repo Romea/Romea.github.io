@@ -45,7 +45,8 @@ a_montanaro: # unique id, usually, initial_lastName
 
 z_khizar: # unique id, usually, initial_lastName
   name: Zaar Khizar
-  avatar: bio-photo.jpg # best format: 250x250
+  avatar: Zaar.jpg # best format: 250x250
+  email: muhammad.khizar@limos.fr
   web: /people/zkhizar
 #  info: # extra title, if necessary
   start: 2024-08-01 # AAAA-MM-DD
