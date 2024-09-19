@@ -55,6 +55,7 @@ z_khizar: # unique id, usually, initial_lastName
   topics: "Traversability, State Estimation, SLAM, Computer Vision"
   social:
     linkedin: ["Linkedin", "https://www.linkedin.com/in/zaar-ali"]
+    github: ["Github", "https://github.com/zaarAli" ]
 
 a_dannaoui: # unique id, usually, initial_lastName
   name: Abdel-Raouf Dannaoui
