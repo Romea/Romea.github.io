@@ -5,7 +5,7 @@ date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/field.jpg
+  overlay_image: /assets/images/splash.jpg
 #  caption: "Photo credit: someone"
 excerpt: "
 Our lab focuses on developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
@@ -14,11 +14,10 @@ We are part of [INRAE](https://www.inrae.fr/en), the French National Research In
 "
 intro: 
 feature_row:
-  - image_path: /assets/images/placeholders/300x200.jpg
-    alt: "placeholder_300x200 image 1"
-    title: "Research highlight 1"
-    excerpt: "Description of the research highlight"
-    url: "/research"
+  - image_path: /assets/images/research/energy/topview_1200x675.jpg
+    title: "Energy Consumption Analysis for Agricultural Robots"
+    excerpt: "Internship project"
+    url: "/research/energy"
     btn_label: "Read More"
     btn_class: "btn--primary"
 #  - image_path: /assets/images/placeholders/300x200.jpg
@@ -32,7 +31,6 @@ feature_row:
 #    title: "Placeholder 3"
 #    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
-
 
 {% include feature_row %}
 

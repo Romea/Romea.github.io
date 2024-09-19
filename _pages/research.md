@@ -7,5 +7,3 @@ entries_layout: grid
 classes: wide
 ---
 
-In Construction
-
