@@ -65,7 +65,11 @@ a_dannaoui: # unique id, usually, initial_lastName
   start: 2024-09-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "Mapping, Iterative Closest Point (ICP)"
+  topics: "Mapping, SLAM, Computer Vision, Iterative Closest Point (ICP)"
+  social:
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/abdelraouf-dannaoui/"]
+    github: ["Github", "https://github.com/RaoufDannaoui1" ]
+
 
 t_montagnon: # unique id, usually, initial_lastName
   name: Tom Montagnon
