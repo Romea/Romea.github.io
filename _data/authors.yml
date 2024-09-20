@@ -59,7 +59,7 @@ z_khizar: # unique id, usually, initial_lastName
 
 a_dannaoui: # unique id, usually, initial_lastName
   name: Abdel-Raouf Dannaoui
-  avatar: bio-photo.jpg # best format: 250x250
+  avatar: raouf_portrait.jpg # best format: 250x250
   web: /people/adannaoui
 #  info: # extra title, if necessary
   start: 2024-09-01 # AAAA-MM-DD
