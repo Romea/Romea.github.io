@@ -6,7 +6,7 @@ permalink: /people/tmontagnon/ # change with your own data
 author: t_montagnon # change with your own 
 ---
 
-**Tom Montagnon** is a doctoral researcher at [INRAE](https://www.inrae.fr/en), collaborating with [Institut Pascal](http://www.institutpascal.uca.fr/index.php/fr/), and [NARO](https://www.naro.go.jp/english/). His research focuses Modeling and Navigation in Environments with Deformable Soil.
+**Tom Montagnon** is a doctoral researcher at [INRAE](https://www.inrae.fr/en), collaborating with [Institut Pascal](http://www.institutpascal.uca.fr/index.php/en/), and [NARO](https://www.naro.go.jp/english/). His research focuses Modeling and Navigation in Environments with Deformable Soil.
 
 He holds a two-year technical degree (DUT) in Computer Science, which provided him with a solid foundation in programming and networking. He later pursued a Master's Degree in Computer Engineering at [ISIMA](https://www.isima.fr/en/home/), specializing in embedded systems. He also completed a Master’s Degree in Robotics and Artificial Perception at the [University of Auvergne](https://www.uca.fr/formation/nos-formations/catalogue-des-formations/masters-degree-artificial-perception-robotics).
 
