@@ -73,7 +73,7 @@ a_dannaoui: # unique id, usually, initial_lastName
 
 t_montagnon: # unique id, usually, initial_lastName
   name: Tom Montagnon
-  avatar: bio-photo.jpg # best format: 250x250
+  avatar: Tom.jpg # best format: 250x250
   web: /people/tmontagnon
 #  info: # extra title, if necessary
   start: 2024-10-01 # AAAA-MM-DD
