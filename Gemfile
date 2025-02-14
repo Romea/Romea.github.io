@@ -5,6 +5,7 @@ gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
 gem 'nokogiri', '< 1.16.2'
+gem "uri", "1.0.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
