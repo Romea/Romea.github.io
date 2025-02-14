@@ -20,13 +20,12 @@ feature_row:
     url: "/research/energy"
     btn_label: "Read More"
     btn_class: "btn--primary"
-#  - image_path: /assets/images/placeholders/300x200.jpg
-#    alt: "placeholder_300x200 image 2"
-#    title: "Placeholder 2"
-#    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-#    url: "research/2010-01-07-post-modified/"
-#    btn_label: "Read More"
-#    btn_class: "btn--primary"
+  - image_path: /assets/images/research/control_implement/full.jpg
+    title: "Control of an implement for agricultural tasks"
+    excerpt: "PhD project"
+    url: "/research/control_implement"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 #  - image_path: /assets/images/placeholders/300x200.jpg
 #    title: "Placeholder 3"
 #    excerpt: "This is some sample content that goes here with **Markdown** formatting."
