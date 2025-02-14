@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem 'uri', '1.0.2'
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"
