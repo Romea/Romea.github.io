@@ -37,6 +37,8 @@ jobs:
         with:
           ruby-version: '2.7'
           bundler-cache: true
+      - name: Run Bundle Update
+        run: bundle update
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
