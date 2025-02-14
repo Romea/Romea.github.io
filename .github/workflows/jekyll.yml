@@ -35,10 +35,10 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: '2.7.8'
           bundler-cache: true
-      - name: Remove Conflicting uri Gem
-        run: gem uninstall uri --all --executables || true
+      - name: Remove Bundler Cache and Lock File
+        run: rm -rf vendor/bundle .bundle Gemfile.lock
       - name: Force Bundle Install
         run: bundle install
       - name: Run Bundle Update
