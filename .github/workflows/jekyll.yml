@@ -37,8 +37,8 @@ jobs:
         with:
           ruby-version: '2.7'
           bundler-cache: true
-      - name: Update Bundler
-        run: gem install bundler
+      - name: Force Bundle Install
+        run: bundle install
       - name: Run Bundle Update
         run: bundle update
       - name: Setup Pages
