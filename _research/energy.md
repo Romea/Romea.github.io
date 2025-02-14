@@ -16,3 +16,5 @@ Using detailed data from 69 robot trajectories over a total distance of more tha
 However, the study faced challenges due to the intrinsic link between experimental parameters like weather, tool usage, and speed, making it difficult to isolate individual factors affecting energy consumption.
 
 Future work will focus on creating structured experimental protocols to evaluate each parameter independently, ensuring precise data collection, and incorporating additional environmental variables like ground humidity. By refining methodologies and conducting further real-world tests, the research aims to enhance energy efficiency in agricultural robotics, contributing to sustainable agroecological practices.
+
+{% reference bras2024toward %}
