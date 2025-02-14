@@ -37,6 +37,8 @@ jobs:
         with:
           ruby-version: '2.7'
           bundler-cache: true
+      - name: Remove Conflicting uri Gem
+        run: gem uninstall uri --all --executables || true
       - name: Force Bundle Install
         run: bundle install
       - name: Run Bundle Update
