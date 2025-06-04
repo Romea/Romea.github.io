@@ -71,6 +71,15 @@ t_montagnon: # unique id, usually, initial_lastName
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Control, Soil Deformation"
+  
+m_ounally: # unique id, usually, initial_lastName
+  name: Mohamed Ounally
+  avatar: bio-photo.jpg # best format: 250x250
+#  info: # extra title, if necessary
+  start: 2025-04-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: intern # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Quadrupede robot, Energy consumption"
 
 # =====================
 # INACTIVE MEMBERS
