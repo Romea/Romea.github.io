@@ -1,8 +1,8 @@
 ---
-title: Resources
+title: Research
 layout: collection
-permalink: /resources/
-collection: resources
+permalink: /research/
+collection: research
 entries_layout: grid
 classes: wide
 ---

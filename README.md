@@ -28,7 +28,7 @@ To add a research page, simply add a file in the corresponding folder.
 Don't forget to update the teaser image.
 
 ### Create a new people page
-1) Fill a new entry in `_data/authors/yml`.
+1) Fill a new entry in `_data/authors.yml`.
 2) [Optionnal] add a bibliography (`.bib`file) in `_bibliography/`.
 3) Create a new file in `_people/`.
 

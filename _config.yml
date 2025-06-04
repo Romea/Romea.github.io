@@ -116,6 +116,14 @@ defaults:
       layout: single
       author_profile: false
       share: false
+  # resources
+  - scope:
+      path: ""
+      type: resources
+    values:
+      layout: single
+      author_profile: false
+      share: false
   # equipment
   - scope:
       path: ""
@@ -161,6 +169,9 @@ collections:
   research:
     output: true
     permalink: /research/:path/
+  resources:
+    output: true
+    permalink: /resources/:path/
     # equipment:
     #   output: true
     #   permalink: /equipment/:path/
