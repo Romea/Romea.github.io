@@ -14,6 +14,12 @@ We are part of [INRAE](https://www.inrae.fr/en), the French National Research In
 "
 intro: 
 feature_row:
+  - image_path: /assets/images/robot_1200x500.jpg
+    title: "Information for prospective students"
+    excerpt: "Resources"
+    url: "/resources/prospectiveStudents"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/research/energy/topview_1200x675.jpg
     title: "Energy Consumption Analysis for Agricultural Robots"
     excerpt: "Internship project"
@@ -26,9 +32,6 @@ feature_row:
     url: "/research/control_implement"
     btn_label: "Read More"
     btn_class: "btn--primary"
-#  - image_path: /assets/images/placeholders/300x200.jpg
-#    title: "Placeholder 3"
-#    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 ---
 
 {% include feature_row %}
