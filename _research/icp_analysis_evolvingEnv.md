@@ -4,7 +4,7 @@ header:
   teaser: assets/images/research/icp_analysis/header.png
 ---
 
-<img src="assets/images/research/icp_analysis/header.png" alt="evolving environment" style="width:100%;">
+<img src="/assets/images/research/icp_analysis/header.png" alt="evolving environment" style="width:100%;">
 
 This study explores a key challenge in autonomous robotics: how short-term environmental changes affect LiDAR-based relocalization. While long-term mapping has been well studied, weekly variations, such as vegetation growth or parked vehicles, can also disrupt localization, yet remain underexplored. To address this, we introduce a new dataset and evaluation framework to systematically analyze the robustness of ICP-based methods.
 
@@ -17,8 +17,8 @@ Two ICP variants. Point-to-Point (PtP) and Point-to-Plane (PtPlane), were tested
 PtPlane consistently outperformed PtP, showing lower translation (0.1–0.2 m) and rotation errors (<1°) as presented in the following image. The use of surface normals helped PtPlane remain robust in ambiguous or sparse scenes. In contrast, PtP failed more often in dense vegetation corridors, flat terrain, or when dynamic objects disrupted local geometry.
 
 <div>
-<img src="assets/images/research/icp_analysis/trans_error_labeled.png" alt="translation error" style="width:100%; display:block; margin:0; padding:0; border:0;">
-<img src="assets/images/research/icp_analysis/rot_error_labeled.png" alt="rotational error" style="width:100%; display:block; margin:0; padding:0; border:0;">
+<img src="/assets/images/research/icp_analysis/trans_error_labeled.png" alt="translation error" style="width:100%; display:block; margin:0; padding:0; border:0;">
+<img src="/assets/images/research/icp_analysis/rot_error_labeled.png" alt="rotational error" style="width:100%; display:block; margin:0; padding:0; border:0;">
 </div>
 <br>
 
