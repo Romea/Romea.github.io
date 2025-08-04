@@ -28,7 +28,7 @@ search: true
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-url: https://romea.github.io
+url: https://rleaf.mathnum.inrae.fr/
 
 # Outputting
 permalink: /:categories/:title/
