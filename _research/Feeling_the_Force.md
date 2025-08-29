@@ -1,5 +1,5 @@
 ---
-title: "Feeling the Force: A New Way for Robots to Navigate Through Nature"
+title: "Feeling the Force: A Nuanced Physics-based Traversability Sensor for Navigation in Unstructured Vegetation"
 header:
   teaser: assets/images/research/feeling_the_force/teaser.png
 ---
