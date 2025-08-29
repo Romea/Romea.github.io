@@ -11,8 +11,9 @@ Energy management is a fundamental challenge for legged robots in outdoor enviro
 ### Methodology and Setup
 
 We used a Unitree B1 quadruped with standard sensors (battery monitor, IMU, odometry) on outdoor slopes ranging from 5° to 20°. The robot traveled at constant speed (0.3 m/s) along straight segments to minimize confounding effects.
-
-<img src="/assets/images/research/energy_slopes/coordinate_system.png" alt="coordinate system" style="width:100%;">
+<div style="text-align: center">
+  <img src="/assets/images/research/energy_slopes/coordinate_system_new.jpg" alt="coordinate system" style="width:50%;">
+</div>
 
 The coordinate system establishes α as the slope angle and γ as the robot's heading relative to the slope direction. Energy is modeled as the integral of instantaneous power over the trajectory.
 
@@ -20,13 +21,15 @@ The coordinate system establishes α as the slope angle and γ as the robot's he
 
 #### Energy Superposition Validation
 The model treats energy as additive across path segments, validated through composite path experiments.
-
-<img src="/assets/images/research/energy_slopes/superposition.png" alt="energy superposition" style="width:100%;">
+<div style="text-align: center">
+  <img src="/assets/images/research/energy_slopes/superposition_new.jpg" alt="energy superposition" style="width:50%;">
+</div>
 
 #### Power-Slope Relationships
 Field experiments reveal clear linear trends with opposite behaviors for uphill versus downhill motion.
-
-<img src="/assets/images/research/energy_slopes/power_slope_filtered.png" alt="power vs slope" style="width:100%;">
+<div style="text-align: center">
+  <img src="/assets/images/research/energy_slopes/power_slope_filtered_new.jpg" alt="power vs slope" style="width:100%;">
+</div>
 
 Measured power as a function of slope angle shows: power increases linearly when climbing, decreases moderately when descending, and lateral motion consistently requires more energy than forward motion.
 
