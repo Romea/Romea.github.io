@@ -4,7 +4,7 @@ header:
   teaser: assets/images/research/feeling_the_force/teaser.png
 ---
 
-<img src="assets/images/research/feeling_the_force/teaser.png" alt="tall grass" style="width:100%;">
+<img src="/assets/images/research/feeling_the_force/teaser.png" alt="tall grass" style="width:100%;">
 
 Imagine a robot moving through a forest, brushing past tall grass and bending small branches as it advances. In structured environments like roads or factories, robots avoid obstacles at all costs. But in natural terrain, such as agricultural fields, forests, or green lands and meadows, avoiding every plant is not only impractical, it’s impossible. Sometimes, the most efficient path forward is *through* the vegetation.
 
@@ -20,14 +20,14 @@ Some approaches use machine learning to predict traversability from visual cues.
 ### A Sensor That Feels the Pushback
 We developed a lightweight, wire-based sensor mounted on the front of a mobile robot, as shown in the figure bellow. The sensor uses a thin wire held under constant tension. When the robot encounters vegetation, the plants push against the wire, causing it to retract slightly. By measuring this displacement with high precision, we can calculate the force applied by the plant, down to the gentle brush of a grass blade.
 
-<img src="assets/images/research/feeling_the_force/fig2_sensor_mounted.png" alt="Custom force sensor mounted on robot" style="width:100%;">
+<img src="/assets/images/research/feeling_the_force/fig2_sensor_mounted.png" alt="Custom force sensor mounted on robot" style="width:100%;">
 
 Unlike traditional bumpers, which are often too stiff or noisy for soft vegetation, our design minimizes internal friction. This makes it sensitive enough to capture subtle interactions while remaining robust in real-world conditions.
 
 ### Mapping What the Robot Feels
 As the robot moves, it builds a **force field map** of its surroundings. Each cell in the map stores the average resistance measured during traversal.
 
-<img src="assets/images/research/feeling_the_force/fig6_force_field_map.png" alt="Force field map" style="width:100%;">
+<img src="/assets/images/research/feeling_the_force/fig6_force_field_map.png" alt="Force field map" style="width:100%;">
 
 > **Force field map** of a grass patch. Brighter colors indicate higher resistance. The green dotted line shows the robot’s trajectory.
 
