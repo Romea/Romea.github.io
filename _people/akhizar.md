@@ -18,7 +18,7 @@ He holds a Bachelor's degree in Electrical Engineering with a major in Signal An
 
 # CV
 
-Download [CV](https://drive.google.com/file/d/19InoDhCFgUAkFTPI_0CMUGJXWueZZFwY/view?usp=drive_link)
+Download [CV](https://drive.google.com/file/d/1d6hQ-dHDRlHgSPrJ2804JHsrpYafHpMw/view?usp=sharing)
 
 # Publications
 
