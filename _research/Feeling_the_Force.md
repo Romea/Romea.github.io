@@ -1,10 +1,10 @@
 ---
 title: "Feeling the Force: A Nuanced Physics-based Traversability Sensor for Navigation in Unstructured Vegetation"
 header:
-  teaser: assets/images/research/feeling_the_force/teaser.png
+  teaser: assets/images/research/feeling_the_force/teaser.jpg
 ---
 
-<img src="/assets/images/research/feeling_the_force/teaser.png" alt="tall grass" style="width:100%;">
+<img src="/assets/images/research/feeling_the_force/teaser.jpg" alt="tall grass" style="width:100%;">
 
 Imagine a robot moving through a forest, brushing past tall grass and bending small branches as it advances. In structured environments like roads or factories, robots avoid obstacles at all costs. But in natural terrain, such as agricultural fields, forests, or green lands and meadows, avoiding every plant is not only impractical, it’s impossible. Sometimes, the most efficient path forward is *through* the vegetation.
 
