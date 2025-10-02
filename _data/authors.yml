@@ -37,16 +37,18 @@ j_laconte: # unique id, usually, initial_lastName
 z_khizar: # unique id, usually, initial_lastName
   name: Zaar Khizar
   avatar: Zaar.jpg # best format: 250x250
-  email: muhammad.khizar@limos.fr
+  email: Muhammad_Haseeb.KHIZAR@uca.fr
   web: /people/zkhizar
 #  info: # extra title, if necessary
   start: 2024-08-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "Traversability, State Estimation, SLAM, Computer Vision"
+  topics: "Traversability, State Estimation, Navigation, SLAM, Computer Vision"
   social:
+    scholar: ["Google Scholar", "https://scholar.google.com/citations?user=W0n9NXsAAAAJ&hl"]
     linkedin: ["Linkedin", "https://www.linkedin.com/in/zaar-ali"]
     github: ["Github", "https://github.com/zaarAli" ]
+    orcId: ["ORCID", "https://orcid.org/0009-0009-2297-4934"]
 
 a_dannaoui: # unique id, usually, initial_lastName
   name: Abdel-Raouf Dannaoui
