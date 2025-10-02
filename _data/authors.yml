@@ -72,13 +72,34 @@ t_montagnon: # unique id, usually, initial_lastName
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Control, Soil Deformation"
   
+n_asfour: # unique id, usually, initial_lastName
+  name: Nour Asfour
+  avatar: bio-photo.jpg # best format: 250x250
+  web: /people/nasfour
+#  info: # extra title, if necessary
+  start: 2025-10-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Manipulation, Planning, Deformable Environment"
+
+i_haoula: # unique id, usually, initial_lastName
+  name: Ines Haoula
+  avatar: bio-photo.jpg # best format: 250x250
+  #web: /people/ihaoula
+#  info: # extra title, if necessary
+  start: 2025-10-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Navigation, Control, Deep-Learning"
+  misc: "<b>Main supervisor:</b> <a href=\"https://www.riccardobertoglio.com\">Riccardo Bertoglio</a>"
+  
 m_ounally: # unique id, usually, initial_lastName
   name: Mohamed Ounally
   avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   start: 2025-04-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
-  level: intern # prof, staff, postdoc, phd, master, intern, visitor
+  level: master # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Quadrupede robot, Energy consumption"
 
 # =====================
