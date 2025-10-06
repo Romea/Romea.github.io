@@ -26,7 +26,7 @@ His research interests focus on mobile robotics and the interactions between the
 
 # Scientific Services
 
-- Co-organizer of the Field Robotics Workshop at ICRA 2024
+- Co-organizer of the Field Robotics Workshop at ICRA
 - Associate Editor for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 - Regular reviewer for international journals and conferences (e.g., ICRA, IROS, RA-L)
 

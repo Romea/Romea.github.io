@@ -94,6 +94,17 @@ i_haoula: # unique id, usually, initial_lastName
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Navigation, Control, Deep-Learning"
   misc: "<b>Main supervisor:</b> <a href=\"https://www.riccardobertoglio.com\">Riccardo Bertoglio</a>"
+
+s_wembe: # unique id, usually, initial_lastName
+  name: Stephane Ngnepiepaye Wembe
+  avatar: bio-photo.jpg # best format: 250x250
+  web: /people/swembe
+#  info: # extra title, if necessary
+  start: 2023-04-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Control, Model Predictive Control, Agricultural Robotics"
+  misc: "<b>In collaboration with </b> <a href=\"https://sabi-agri.com/\">Sabi Agri</a> ; <b>Main supervisor:</b> <a href=\"https://tscf.clermont.hub.inrae.fr/l-unite-tscf/annuaire/lenain-roland\">Roland Lenain</a>"
   
 m_ounally: # unique id, usually, initial_lastName
   name: Mohamed Ounally
