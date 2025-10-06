@@ -94,6 +94,17 @@ i_haoula: # unique id, usually, initial_lastName
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Navigation, Control, Deep-Learning"
   misc: "<b>Main supervisor:</b> <a href=\"https://www.riccardobertoglio.com\">Riccardo Bertoglio</a>"
+  
+w_dubois: # unique id, usually, initial_lastName
+  name: William Dubois
+  avatar: bio-photo.jpg # best format: 250x250
+  #web: /people/ihaoula
+#  info: # extra title, if necessary
+  start: 2023-05-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Mapping, ICP, sensor fusion"
+  misc: "<b>Main supervisor:</b> <a href=\"https://norlab-ulaval.github.io/\">François Pomerleau</a>"
 
 s_wembe: # unique id, usually, initial_lastName
   name: Stephane Ngnepiepaye Wembe
