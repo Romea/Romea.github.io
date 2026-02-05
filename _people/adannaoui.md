@@ -19,3 +19,7 @@ He holds a Bachelor's degree in Computer Engineering from [Lebanese Internationa
 # CV
 
 Download [CV](https://drive.google.com/file/d/1-CKjaK2urKnFE7tVTpfJTswC9CTnjoSA/view?usp=sharing)
+
+# Publications
+
+{% bibliography --file raoufdannaoui %}
