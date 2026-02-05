@@ -60,6 +60,7 @@ a_dannaoui: # unique id, usually, initial_lastName
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Mapping, SLAM, Computer Vision, Iterative Closest Point (ICP)"
   social:
+    scholar: ["Google Scholar", "https://scholar.google.com/citations?user=tV31vPgAAAAJ&hl=en"]
     linkedin: ["Linkedin", "https://www.linkedin.com/in/abdelraouf-dannaoui/"]
     github: ["Github", "https://github.com/RaoufDannaoui1" ]
 
