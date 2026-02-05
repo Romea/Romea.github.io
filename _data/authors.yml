@@ -85,7 +85,7 @@ n_asfour: # unique id, usually, initial_lastName
   topics: "Manipulation, Planning, Deformable Environment"
 
 i_haoula: # unique id, usually, initial_lastName
-  name: Ines Haoula
+  name: Ines Haouala
   avatar: bio-photo.jpg # best format: 250x250
   #web: /people/ihaoula
 #  info: # extra title, if necessary
@@ -109,7 +109,7 @@ w_dubois: # unique id, usually, initial_lastName
 s_wembe: # unique id, usually, initial_lastName
   name: Stephane Ngnepiepaye Wembe
   avatar: bio-photo.jpg # best format: 250x250
-  web: /people/swembe
+  #web: /people/swembe
 #  info: # extra title, if necessary
   start: 2023-04-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab

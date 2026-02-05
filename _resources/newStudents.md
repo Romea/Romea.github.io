@@ -8,6 +8,11 @@ header:
 
 Download the [PhD Guide](https://dred.uca.fr/etudes-doctoralesbr-hdr/etudes-doctorales/espace-des-doctorants/guide-du-doctorant) from the doctoral school.
 
+## Setup Tools
+- Use a bibliography manager such as [zotero](https://www.zotero.org/), and learn how to use it. Do **not** "simply" store pdfs on your computer, it is clearly not a viable option on the long run.
+- Learn how to use [Latex](https://en.wikipedia.org/wiki/LaTeX). As a French student you have access to [PLM Latex](https://plmlatex.math.cnrs.fr/project), a free online compiler.
+- Setup your Linux Machine and learn the basics of [Docker](https://www.docker.com/) and [ROS2](https://www.ros.org/).
+
 ## Stay Updated
 
 - Set up [Google Scholar alerts](https://scholar.google.fr/scholar_alerts?view_op=list_alerts&hl=en) with keywords related to your project.
