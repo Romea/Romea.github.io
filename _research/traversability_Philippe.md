@@ -1,5 +1,5 @@
 ---
-title: "Energy Consumption Analysis for Agricultural robots"
+title: "Traversability Analysis in Natural Environments"
 header:
   teaser: assets/images/research/traversability_philippe/robot_300x200.png
 ---
