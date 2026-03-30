@@ -76,8 +76,8 @@ t_montagnon: # unique id, usually, initial_lastName
   topics: "Control, Soil Deformation"
   
 n_asfour: # unique id, usually, initial_lastName
-  name: Nour Asfour
-  avatar: bio-photo.jpg # best format: 250x250
+  name: Nouriddin Asfour
+  avatar: nour_square.jpg # best format: 250x250
   web: /people/nasfour
 #  info: # extra title, if necessary
   start: 2025-10-01 # AAAA-MM-DD
