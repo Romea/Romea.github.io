@@ -9,7 +9,7 @@ permalink: /people/nasfour/ # change with your own data
 author: n_asfour # change with your own 
 ---
 
-**Nouriddin Asfour** is a doctoral researcher at [INRAE](https://www.inrae.fr/en), in collaboration with [Université Clermont Auvergne](https://www.uca.fr/) and [Institut Pascal](http://www.institutpascal.uca.fr/).
+**Nouriddin Asfour** is a doctoral researcher at [INRAE](https://www.inrae.fr/en), in collaboration with [Université Clermont Auvergne](https://www.uca.fr/).
 
 His research focuses on robotic manipulation and motion planning in deformable natural environments, with a particular interest in perception and interaction with tree structures. His work combines robotics, computer vision, 3D perception, point cloud processing, and learning-based methods for complex outdoor environments.
 
