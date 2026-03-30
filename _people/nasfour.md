@@ -24,7 +24,7 @@ He holds a Master’s degree in **Computer Vision and Robotics (ViBOT)** from th
 - Learning-based perception for agricultural and natural environments
 
 # Education
-- **Ph.D. in Robotics** – INRAE / Université Clermont Auvergne / Institut Pascal, France – Ongoing
+- **Ph.D. in Robotics** – INRAE / Université Clermont Auvergne / Institut Pascal, France
 - **M.Sc. in Computer Vision and Robotics (ViBOT)** – University of Bourgogne, France
 - **B.Sc. in Information and Communication Technology** – Arab Open University, Lebanon
 
