@@ -87,7 +87,7 @@ n_asfour: # unique id, usually, initial_lastName
 
 i_haouala: # unique id, usually, initial_lastName
   name: Ines Haouala
-  avatar: bio-photo.jpg # best format: 250x250
+  avatar: ihaouala_square.jpg # best format: 250x250
   web: /people/ihaouala
 #  info: # extra title, if necessary
   start: 2025-10-01 # AAAA-MM-DD
