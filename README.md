@@ -1,4 +1,4 @@
-# ROMEA website
+# RLEAF website
 
 ## Basic information
 To modify and run locally the website, you need:
