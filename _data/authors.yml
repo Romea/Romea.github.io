@@ -84,6 +84,9 @@ n_asfour: # unique id, usually, initial_lastName
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Manipulation, Planning, Deformable Environment"
+  social:
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/nouriddin-asfour"]
+    github: ["Github", "https://github.com/Nouriddinasfour"]
 
 i_haouala: # unique id, usually, initial_lastName
   name: Ines Haouala
