@@ -118,6 +118,15 @@ s_wembe: # unique id, usually, initial_lastName
   topics: "Control, Model Predictive Control, Agricultural Robotics"
   misc: "<b>In collaboration with </b> <a href=\"https://sabi-agri.com/\">Sabi Agri</a> ; <b>Main supervisor:</b> <a href=\"https://tscf.clermont.hub.inrae.fr/l-unite-tscf/annuaire/lenain-roland\">Roland Lenain</a>"
   
+r_tindano: # unique id, usually, initial_lastName
+  name: Reine Tindano
+  avatar: bio-photo.jpg # best format: 250x250
+#  info: # extra title, if necessary
+  start: 2026-04-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: master # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Path Planning, Optimization"
+
 m_ounally: # unique id, usually, initial_lastName
   name: Mohamed Ounally
   avatar: bio-photo.jpg # best format: 250x250
@@ -125,7 +134,7 @@ m_ounally: # unique id, usually, initial_lastName
   start: 2025-04-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: master # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "Quadrupede robot, Energy consumption"
+  topics: "Quadrupede Robot, Energy Consumption"
 
 # =====================
 # INACTIVE MEMBERS
