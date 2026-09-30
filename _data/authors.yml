@@ -27,12 +27,35 @@ j_laconte: # unique id, usually, initial_lastName
   start: 2023-10-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: prof # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "State Estimation, Traversability, Autonomous Navigation, Applied Mathematics"
+  topics: "Field Robotics, State Estimation, Traversability, Autonomous Navigation, Applied Mathematics"
   social:
     scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=cVFALvkAAAAJ"]
     researchGate: ["Research Gate", "https://www.researchgate.net/profile/Johann_Laconte"]
     linkedin: ["Linkedin", "https://www.linkedin.com/in/jlaconte/"]
     orcId: ["ORCID", "https://orcid.org/0000-0002-2274-9835"]
+
+m_ounally: # unique id, usually, initial_lastName
+  name: Mohamed Ounally
+  avatar: bio-photo.jpg # best format: 250x250
+#  info: # extra title, if necessary
+  start: 2026-11-01 # AAAA-MM-DD
+  #end:  2026-10-01 # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Control, Mapping, Overactuated Robots"
+
+n_asfour: # unique id, usually, initial_lastName
+  name: Nouriddin Asfour
+  avatar: nour_square.jpg # best format: 250x250
+  web: /people/nasfour
+#  info: # extra title, if necessary
+  start: 2025-10-01 # AAAA-MM-DD
+#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Manipulation, Planning, Deformable Environment"
+  social:
+    linkedin: ["Linkedin", "https://www.linkedin.com/in/nouriddin-asfour"]
+    github: ["Github", "https://github.com/Nouriddinasfour"]
+  
 
 z_khizar: # unique id, usually, initial_lastName
   name: Zaar Khizar
@@ -75,30 +98,6 @@ t_montagnon: # unique id, usually, initial_lastName
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Control, Soil Deformation"
   
-n_asfour: # unique id, usually, initial_lastName
-  name: Nouriddin Asfour
-  avatar: nour_square.jpg # best format: 250x250
-  web: /people/nasfour
-#  info: # extra title, if necessary
-  start: 2025-10-01 # AAAA-MM-DD
-#  end:  # AAAA-MM-DD, keep empty if still in the lab
-  level: phd # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "Manipulation, Planning, Deformable Environment"
-  social:
-    linkedin: ["Linkedin", "https://www.linkedin.com/in/nouriddin-asfour"]
-    github: ["Github", "https://github.com/Nouriddinasfour"]
-
-i_haouala: # unique id, usually, initial_lastName
-  name: Ines Haouala
-  avatar: ihaouala_square.jpg # best format: 250x250
-  web: /people/ihaouala
-#  info: # extra title, if necessary
-  start: 2025-10-01 # AAAA-MM-DD
-#  end:  # AAAA-MM-DD, keep empty if still in the lab
-  level: phd # prof, staff, postdoc, phd, master, intern, visitor
-  topics: "Navigation, Control, Deep-Learning"
-#  misc: "<b>Main supervisor:</b> <a href=\"https://www.riccardobertoglio.com\">Riccardo Bertoglio</a>"
-  
 w_dubois: # unique id, usually, initial_lastName
   name: William Dubois
   avatar: bio-photo.jpg # best format: 250x250
@@ -110,38 +109,51 @@ w_dubois: # unique id, usually, initial_lastName
   topics: "Mapping, ICP, sensor fusion"
   misc: "<b>Main supervisor:</b> <a href=\"https://norlab-ulaval.github.io/\">François Pomerleau</a>"
 
+  
+
+# =====================
+# INACTIVE MEMBERS
+# =====================
+
 s_wembe: # unique id, usually, initial_lastName
   name: Stephane Ngnepiepaye Wembe
   avatar: bio-photo.jpg # best format: 250x250
   #web: /people/swembe
 #  info: # extra title, if necessary
   start: 2023-04-01 # AAAA-MM-DD
-#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  end:  2026-04-01 # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Control, Model Predictive Control, Agricultural Robotics"
   misc: "<b>In collaboration with </b> <a href=\"https://sabi-agri.com/\">Sabi Agri</a> ; <b>Main supervisor:</b> <a href=\"https://tscf.clermont.hub.inrae.fr/l-unite-tscf/annuaire/lenain-roland\">Roland Lenain</a>"
-  
+
 r_tindano: # unique id, usually, initial_lastName
   name: Reine Tindano
   avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   start: 2026-04-01 # AAAA-MM-DD
-#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  end:   2026-09-01, # keep empty if still in the lab
   level: master # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Path Planning, Optimization"
 
-m_ounally: # unique id, usually, initial_lastName
+m_ounally2: # unique id, usually, initial_lastName
   name: Mohamed Ounally
   avatar: bio-photo.jpg # best format: 250x250
 #  info: # extra title, if necessary
   start: 2025-04-01 # AAAA-MM-DD
-#  end:  # AAAA-MM-DD, keep empty if still in the lab
+  end:  2026-10-01 # AAAA-MM-DD, keep empty if still in the lab
   level: master # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Quadrupede Robot, Energy Consumption"
 
-# =====================
-# INACTIVE MEMBERS
-# =====================
+i_haouala: # unique id, usually, initial_lastName
+  name: Ines Haouala
+  avatar: ihaouala_square.jpg # best format: 250x250
+#  web: /people/ihaouala
+#  info: # extra title, if necessary
+  start: 2025-10-01 # AAAA-MM-DD
+  end:   2026-10-01 # keep empty if still in the lab
+  level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  topics: "Navigation, Control, Deep-Learning"
+#  misc: "<b>Main supervisor:</b> <a href=\"https://www.riccardobertoglio.com\">Riccardo Bertoglio</a>"
 a_montanaro: # unique id, usually, initial_lastName
   name: Alix Montanaro
   avatar: bio-photo.jpg # best format: 250x250
