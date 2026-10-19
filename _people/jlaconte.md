@@ -12,9 +12,10 @@ He completed his Ph.D. at Institut Pascal (France) and Laval University (Canada)
 This work was awarded the second prize for the [best french Ph.D. thesis in robotics](https://www.gdr-robotique.org/prix_de_these/?an=2021).
 After a six-month postdoc at the Northern Robotics Laboratory ([Norlab](https://norlab.ulaval.ca)), he continued his research at the University of Toronto in Mobile Robotics ([ASRL](http://asrl.utias.utoronto.ca/)).
 
-Since October 2023, he is the recipient of a junior research chair in the robotics department of the French National Institute for Agriculture, Food and Environment (INRAE).
+In October 2023, he was awarded a Junior Research Chair in the robotics department of the French National Research Institute for Agriculture, Food and Environment (INRAE).
+Since 2026, he has been a Research Director in the robotics department at INRAE.
 
-His research interests focus on mobile robotics and the interactions between the robot and deformable, ever-changing environments.
+His research interests focus on field robotics and the interactions between the robot and deformable, ever-changing environments.
 
 # Education
 
