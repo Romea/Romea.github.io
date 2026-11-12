@@ -47,11 +47,13 @@ include:
   - _pages
 
 exclude:
+  - _drafts
   - README.md
   - scripts
   - vendor
   - _people/template.md
   - assets/images/research/feeling_the_force/readme.md
+  - assets/images/publications/README.md
   - assets/people/mohamed-ounally.jpeg
 
 # Exclude from processing.

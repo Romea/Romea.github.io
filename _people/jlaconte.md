@@ -39,4 +39,4 @@ His research interests focus on field robotics and the interactions between the 
 Download [here](https://github.com/JohannLac/academic_resume/raw/master/JohannLaconte.pdf)
 
 ## Publications
-{% bibliography --query @*[author ~= Laconte] %}
+{% bibliography --query @*[author ~= Laconte && scope != personal] %}

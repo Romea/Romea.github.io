@@ -2,6 +2,12 @@ require "bibtex"
 
 Jekyll::Hooks.register :site, :post_read do |site|
   bibliography = BibTeX.open(File.join(site.source, "_bibliography/references.bib"))
+  site.data.fetch("home_publications", []).each do |publication|
+    entry = bibliography[publication.fetch("reference")].convert(:latex)
+    publication["title"] = entry.title.to_s
+    publication["url"] = entry[:publisher_url]&.to_s || entry[:arxiv]&.to_s || "https://doi.org/#{entry[:doi]}"
+    publication["byline"] = "#{entry.author.first.last} et al."
+  end
   site.collections.fetch("research").docs.each do |page|
     next unless page.data["reference"]
     next unless entry = bibliography[page.data["reference"]]

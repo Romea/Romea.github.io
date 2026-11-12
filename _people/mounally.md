@@ -37,7 +37,7 @@ studied the influence of slope and heading on energy consumption. This work
 led to an [energy prediction model](/research/energy_prediction_slopes/)
 evaluated in outdoor experiments.
 
-In 2026, he worked with INRAE and the
+In 2026, he worked at the
 [Northern Robotics Laboratory](https://norlab.ulaval.ca/) at Université Laval on
 the MTT-154, an articulated tracked vehicle. He developed its ROS 2 control and
 measurement software, integrated lidar- and GNSS-based mapping and

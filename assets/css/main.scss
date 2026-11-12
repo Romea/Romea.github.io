@@ -16,6 +16,9 @@ a { text-underline-offset: .15em; }
 a:focus-visible, button:focus-visible { outline: 2px solid #245f64; outline-offset: 3px; }
 .greedy-nav .site-title { display: none; }
 .site-logo img { max-height: 46px; }
+.greedy-nav .site-logo { display: inline-flex; flex-shrink: 0; align-items: center; gap: .7rem; margin-inline-end: 1rem; }
+.greedy-nav .site-logo a { margin: 0; }
+.greedy-nav .github-link { display: grid; place-items: center; min-width: 44px; min-height: 44px; font-size: 1.4rem; }
 #main { max-width: 1200px; margin: 2rem auto; }
 .page { float: none; width: 100%; padding-right: 0; }
 .page .page__inner-wrap { float: none; width: 100%; max-width: 76ch; margin-inline: auto; }
@@ -40,6 +43,21 @@ a:focus-visible, button:focus-visible { outline: 2px solid #245f64; outline-offs
 .grid__item .archive__item-title { margin-top: .8rem; font-size: 1.1rem; line-height: 1.4; }
 .grid__item .archive__item-excerpt { font-size: .9rem; }
 .grid__wrapper + p { clear: both; }
+.section-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin: 2rem 0 1rem; }
+.section-heading h2 { margin: 0; border: 0; }
+.section-heading > a { flex-shrink: 0; font-size: .85rem; }
+.grid__item .publication-preview { aspect-ratio: 3 / 2; background: #f4f5f4; }
+.grid__item .publication-preview img { object-fit: contain; }
+.grid__item .publication-photo img { object-fit: cover; }
+.recent-publications .archive__item { display: flex; flex-direction: column; }
+.recent-publications .publication-meta, .recent-publications .publication-credit { font-size: .8rem; color: #535b5b; }
+.publication-meta { margin: .8rem 0 .4rem; }
+.recent-publications .archive__item-title { margin-top: 0; }
+.recent-publications .publication-credit { margin-top: auto; padding-top: .6rem; }
+.student-note { display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; align-items: center; gap: 1.5rem; margin-top: 2rem; padding: 1.5rem 0; border-block: 1px solid #ddd; color: inherit; text-decoration: none; }
+.student-note strong { color: #245f64; text-decoration: underline; text-underline-offset: .15em; font-size: 1.15rem; }
+.student-note__text { display: block; margin-top: .4rem; }
+.student-note:hover strong { color: #173e42; }
 
 .profile-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; padding: 0; margin: .6rem 0 0; list-style: none; font-size: .9rem; }
 .profile-links li { margin: 0; }
@@ -51,15 +69,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid #245f64; outline-offs
 .citation-source pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 .publication-links { display: flex; flex-wrap: wrap; gap: .4rem 1rem; margin-top: .35rem; font-size: .9em; }
 .research-backlinks { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid #ddd; font-size: .9em; }
-.research-areas, .project-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem 2.5rem; }
-.research-areas h3, .project-list h3 { margin: 0 0 .5rem; }
+.research-areas img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.research-areas h3 { margin: 1rem 0 .5rem; font-size: 1.1rem; line-height: 1.4; }
 .research-areas p { margin: 0; }
-.project-list { padding: 0; list-style: none; }
-.project-list li { margin: 0; padding: 1rem 0; border-bottom: 1px solid #ddd; }
-.project-list p { margin: .5rem 0 0; }
-.project-context { color: #535b5b; font-size: .85em; }
-.project-list--three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.doctoral-research li { margin-bottom: .5rem; }
 
 .resource-list { margin: 0; padding: 0; list-style: none; }
 .resource-list li { display: grid; grid-template-columns: 96px minmax(0, 1fr); align-items: center; gap: 1.2rem; padding: 1.2rem 0; border-bottom: 1px solid #ddd; }
@@ -74,14 +86,17 @@ a:focus-visible, button:focus-visible { outline: 2px solid #245f64; outline-offs
 
 @media (max-width: 900px) {
   .grid__wrapper .grid__item { width: calc((100% - 2rem) / 2); }
-  .project-list--three { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 600px) {
   html { font-size: 16px; }
-  .research-areas, .project-list { grid-template-columns: 1fr; gap: 1rem; }
+  .greedy-nav .site-logo { gap: .25rem; margin-inline-end: .5rem; }
+  .site-logo img { max-height: 40px; }
+  .section-heading { flex-wrap: wrap; gap: .5rem; }
   .grid__wrapper { gap: 1.5rem; }
   .grid__wrapper .grid__item { width: 100%; }
   .page__hero--overlay { padding-block: 2rem; }
   .resource-list li { grid-template-columns: 64px minmax(0, 1fr); gap: 1rem; }
   .resource-visual { width: 64px; height: 64px; font-size: 1.8rem; }
+  .student-note { grid-template-columns: 64px minmax(0, 1fr); gap: 1rem; }
+  .student-note > .fa-arrow-right { display: none; }
 }

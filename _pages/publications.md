@@ -12,4 +12,4 @@ the published version or an available open archive.
 
 [Download the bibliography](/publications.bib) · [Research projects](/research/)
 
-{% bibliography %}
+{% bibliography --query @*[scope != personal] %}

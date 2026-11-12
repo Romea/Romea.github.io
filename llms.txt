@@ -13,8 +13,8 @@ mapping, state estimation, control and robot interaction with natural environmen
 
 ## Laboratory
 
-- [Research areas]({{ '/research/' | absolute_url }}): Mapping and state estimation, soil and vegetation interaction, control and mobility, energy and field operations. Includes current doctoral researchers and selected studies.
-- [Projects and collaborations]({{ '/research/projects/' | absolute_url }}): Research programmes, joint laboratories, European networks and experimental infrastructure. Covers ORICA at R-LEAF and wider TSCF robotics collaborations; institutional roles are stated on the page.
+- [Research areas]({{ '/research/' | absolute_url }}): Perception and mapping, navigation and mobility, interaction with natural environments, and selected studies.
+- [Projects]({{ '/research/projects/' | absolute_url }}): ORICA, the research programme led by Johann Laconte at INRAE.
 - [Publications]({{ '/publications/' | absolute_url }}): References with verified links to arXiv, IEEE, publishers, DOI records and HAL.
 - [BibTeX bibliography]({{ '/publications.bib' | absolute_url }}): Machine-readable references and source identifiers.
 - [People]({{ '/people/' | absolute_url }}): Researchers, doctoral students and alumni, with available academic profiles.
@@ -27,17 +27,15 @@ mapping, state estimation, control and robot interaction with natural environmen
 - [{{ person.name }}]({{ person.web | absolute_url }}): {{ person.topics }}.{% for link in person.social %} [{{ link[1][0] }}]({{ link[1][1] }}).{% endfor %}
 {% endif %}{% endfor %}
 
-## Projects and institutional sources
+## Projects
 
-{% for group in site.data.projects %}
-### {{ group.title }}
+{% for project in site.data.projects %}- [{{ project.name }}]({{ project.url }}): Led by {{ project.leader }}. {{ project.programme }}. {{ project.description }}
+{% endfor %}
 
-{% for project in group.projects %}- [{{ project.name }}]({{ project.url }}): {{ project.context }}. {{ project.description }}
-{% endfor %}{% endfor %}
+## Recent publications
 
-TSCF participates in the [CIR ITPS](https://cap2025.fr/fr/challenge2).
-Experimental facilities include the [Roboterrium](https://roboterrium.hub.inrae.fr/)
-within [TIRREX](https://tirrex.fr/) and the [AgroTechnoPôle](https://www.agrotechnopole.fr/).
+{% for publication in site.data.home_publications %}- [{{ publication.title }}]({{ publication.url }}): {{ publication.byline }} {% if publication.date %}{{ publication.date | date: '%Y-%m-%d' }}{% else %}{{ publication.year }}{% endif %}. {{ publication.status }}. {{ publication.description }}
+{% endfor %}
 
 ## Selected work
 
@@ -48,8 +46,6 @@ within [TIRREX](https://tirrex.fr/) and the [AgroTechnoPôle](https://www.agrote
 - [Feeling the Force](https://arxiv.org/abs/2507.19831): Khizar, Laconte, Lenain and Aufrère, 2025; [IEEE publication](https://doi.org/10.1109/ECMR65884.2025.11163109).
 - [When and Where Localization Fails](https://arxiv.org/abs/2507.17531): Dannaoui, Laconte, Debain, Pomerleau and Checchin, 2025; [IEEE publication](https://doi.org/10.1109/ECMR65884.2025.11162975).
 - [Energy Prediction on Sloping Ground for Quadruped Robots](https://arxiv.org/abs/2603.11963): Ounally, Pierre and Laconte; presented at a workshop in 2025, preprint released in 2026.
-- [Steering Through Contact](https://arxiv.org/abs/2609.23271): Ounally, Samson, Turgeon-Roy, Vannini, Laconte and Pomerleau, 2026 preprint.
-- [Inertial Steering and Motion Prediction](https://arxiv.org/abs/2610.38888): Turgeon-Roy, Ounally, Vannini, Roy and Pomerleau, 2026 preprint.
 
 Project descriptions, ongoing research and published results have different
 statuses. Use the linked paper and its stated publication status for scientific

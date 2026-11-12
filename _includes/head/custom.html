@@ -2,8 +2,7 @@
 <link rel="describedby" href="{{ '/llms.txt' | absolute_url }}" type="text/markdown">
 <link rel="alternate" href="{{ '/publications.bib' | absolute_url }}" type="application/x-bibtex" title="R-LEAF bibliography">
 {% if page.url == '/research/projects/' %}
-{% assign projects = '' | split: ',' %}
-{% for group in site.data.projects %}{% assign projects = projects | concat: group.projects %}{% endfor %}
+{% assign projects = site.data.projects %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

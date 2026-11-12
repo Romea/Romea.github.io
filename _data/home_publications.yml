@@ -1,0 +1,23 @@
+# Feature published papers, not work under review. Titles and authors come from the bibliography.
+- reference: wembe2026
+  date: 2026-04-02
+  status: IEEE T-FR
+  image: /assets/images/cards/control_implement_mp.webp
+  photo: true
+  alt: Agricultural robot and its implement during a field trial
+  description: Predictive control for accurate tool placement during agricultural operations.
+- reference: khizar2025feeling
+  year: 2025
+  status: ECMR
+  image: /assets/images/publications/feeling-the-force.webp
+  photo: true
+  cc_by: true
+  alt: Robot fitted with a force sensor moving through tall grass
+  description: A force sensor measures vegetation resistance to help robots assess traversability.
+- reference: ardannaoui_2025_icp_analysis
+  year: 2025
+  status: ECMR
+  image: /assets/images/publications/localization.webp
+  cc_by: true
+  alt: The same tree-lined campus observed in February and April
+  description: Evaluating lidar localization as vegetation and outdoor scenes change over time.

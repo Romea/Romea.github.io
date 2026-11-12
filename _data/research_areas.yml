@@ -1,0 +1,12 @@
+- title: Perception and mapping
+  image: /assets/images/field/adap2e.webp
+  alt: Adap2E research robot equipped with sensors in an orchard
+  description: We study perception and state estimation in environments that change over time. Maps must remain useful as vegetation, weather and scene geometry evolve.
+- title: Navigation and mobility
+  image: /assets/images/field/zilus.webp
+  alt: Agricultural robot between rows of vines
+  description: We develop planning and control methods for robots operating on uneven, deformable terrain, taking account of uncertainty and energy use.
+- title: Interaction with natural environments
+  image: /assets/images/field/b1-vegetation.webp
+  alt: Quadruped robot with a manipulator beside a tree
+  description: We model how robots interact with soil and vegetation, and use these models for traversability assessment and manipulation.
