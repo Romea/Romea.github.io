@@ -1,12 +1,16 @@
 ---
 layout: people
 title: Johann Laconte
+excerpt: "Johann Laconte is a Research Director at INRAE, working on field robotics, state estimation and robot interaction with natural environments."
 locale: en
 permalink: /people/jlaconte/ # change with your own data
 author: j_laconte # change with your own 
 ---
 
-Johann Laconte made his debut in research by interacting with the [Northern Robotics Laboratory](https://norlab.ulaval.ca) during his studies in computer engineering at Clermont Auvergne University, working on the modeling of lidar sensors.
+Johann Laconte is a Research Director (Directeur de recherche) at INRAE, in the
+R-LEAF team of the TSCF research unit.
+
+He made his debut in research by interacting with the [Northern Robotics Laboratory](https://norlab.ulaval.ca) during his studies in computer engineering at Clermont Auvergne University, working on the modeling of lidar sensors.
 He got his Engineering degree from this university in 2018, along a Master's degree in robotics. 
 He completed his Ph.D. at Institut Pascal (France) and Laval University (Canada) in 2021 during which he participated in several robotic deployments in unstructured environments, including subarctic forests.
 This work was awarded the second prize for the [best french Ph.D. thesis in robotics](https://www.gdr-robotique.org/prix_de_these/?an=2021).
@@ -17,7 +21,7 @@ Since 2026, he has been a Research Director in the robotics department at INRAE.
 
 His research interests focus on field robotics and the interactions between the robot and deformable, ever-changing environments.
 
-# Education
+## Education
 
 - Postdoc (Robotics) - University of Toronto, 2023
 - Postdoc (Field Robotics) - Université Laval, 2022
@@ -25,14 +29,14 @@ His research interests focus on field robotics and the interactions between the 
 - M.Sc. in Robotics - Clermont Auvergne University, 2018
 - Engineering Degree in Computer Science and Modeling - ISIMA, 2018
 
-# Scientific Services
+## Scientific Services
 
 - Co-organizer of the Field Robotics Workshop at ICRA
 - Associate Editor for IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
 - Regular reviewer for international journals and conferences (e.g., ICRA, IROS, RA-L)
 
-# Resume
+## Resume
 Download [here](https://github.com/JohannLac/academic_resume/raw/master/JohannLaconte.pdf)
 
-# Publications
-{% bibliography --file JohannLaconte %}
+## Publications
+{% bibliography --query @*[author ~= Laconte] %}

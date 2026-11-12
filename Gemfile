@@ -1,10 +1,8 @@
 source "https://rubygems.org"
 
-gem 'bundler', '~> 2.4.22'
-gem "github-pages", group: :jekyll_plugins
-
-gem "tzinfo-data"
-gem 'nokogiri', '< 1.16.2'
+gem "jekyll", "~> 4.4"
+gem "minimal-mistakes-jekyll", "~> 4.27"
+gem "webrick", "~> 1.8"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -14,10 +12,6 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem "jekyll-include-cache"
-  gem "jekyll-algolia"
-  gem "jekyll-scholar"
+  gem "jekyll-scholar", "~> 7.3"
   gem "jekyll-last-modified-at"
 end
-
-gem "webrick", "~> 1.8"
-gem "uri", "1.0.2"

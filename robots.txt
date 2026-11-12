@@ -1,0 +1,10 @@
+---
+layout: null
+sitemap: false
+search: false
+---
+# Public pages, research papers and bibliographies are open to crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

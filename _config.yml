@@ -13,11 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: RLEAF
+title: R-LEAF
+name: R-LEAF
+locale: en
 logo: assets/images/logo.png
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Website of the research laboratory robotics for the environment and agriculture, INRAE France
+  R-LEAF is an INRAE robotics laboratory in Aubière, France, studying autonomous
+  navigation, mapping, control and robot interaction with natural environments.
 
 # twitter_username: username
 github_username: Romea
@@ -27,17 +30,29 @@ search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-url: https://rleaf.mathnum.inrae.fr/
+theme: minimal-mistakes-jekyll
+url: https://rleaf.mathnum.inrae.fr
+baseurl: ""
+og_image: /assets/images/splash.webp
+og_image_alt: Agricultural robot during an outdoor field trial
+breadcrumbs: true
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris
 
 include:
   - _pages
+
+exclude:
+  - README.md
+  - scripts
+  - vendor
+  - _people/template.md
+  - assets/images/research/feeling_the_force/readme.md
+  - assets/people/mohamed-ounally.jpeg
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -66,7 +81,7 @@ atom_feed:
   hide: true
 
 author:
-  name   : "Robotics for the environment and the agriculture"
+  name   : "R-LEAF"
   avatar : "/assets/images/logo.png"
   bio    : ""
   links:
@@ -96,7 +111,7 @@ defaults:
       type: posts
     values:
       layout: splash
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -107,7 +122,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # research
   - scope:
       path: ""
@@ -188,15 +203,15 @@ collections:
 
 # Plugin configuration : Scholar
 scholar:
-  bibliography_list_attributes:
-    reversed: "reversed" # This reverses the numbering of publications in the sorted group.
+  group_by: year
+  group_order: descending
+  bibliography_template: bibliography
   type_order: [article, inproceedings]
   sort_by: year
   order: reverse
   bibtex_skip_fields: 
     - abstract
     - month_numeric
-    - url
   bibtex_filters:
     - latex
 

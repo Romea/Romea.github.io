@@ -1,74 +1,45 @@
 ---
 title: "R-LEAF <br> Robotics Laboratory for the Environment and Autonomous Farming"
 layout: splash
-date: 2016-03-23T11:48:41-04:00
+excerpt: >-
+  We develop autonomous robots for agriculture and environmental surveying,
+  with research in navigation, mapping, control and interaction with natural environments.
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/splash.jpg
-#  caption: "Photo credit: someone"
-excerpt: "
-Our lab focuses on developing autonomous robots in natural settings, for the ecological transition in agriculture and environmental surveying.
-<br>
-We are part of [INRAE](https://www.inrae.fr/en), the French National Research Institute for Agriculture, Food and the Environment, in the [Technologies and Information Systems for Agrosystems Research Unit](https://tscf.clermont.hub.inrae.fr/).
-"
-intro: 
-feature_row:
-  - image_path: /assets/images/robot_1200x500.jpg
-    title: "Information for prospective students"
-    excerpt: "Resources"
-    url: "/resources/prospectiveStudents"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/research/energy/topview_1200x675.jpg
-    title: "Energy Consumption Analysis for Agricultural Robots"
-    excerpt: "Internship project"
-    url: "/research/energy"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/research/control_implement/full.jpg
-    title: "Control of an implement for agricultural tasks"
-    excerpt: "PhD project"
-    url: "/research/control_implement"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+  overlay_filter: "0.45"
+  overlay_image: /assets/images/splash.webp
+featured:
+  - wembe2026
+  - khizar2025feeling
+  - ardannaoui_2025_icp_analysis
 ---
 
-{% include feature_row %}
+We are part of [INRAE](https://www.inrae.fr/en), the French National Research
+Institute for Agriculture, Food and the Environment, within the
+[Technologies and Information Systems for Agroecosystems (TSCF)](https://tscf.clermont.hub.inrae.fr/)
+research unit in Aubière, France.
 
-<!--
-# ========================================================================================================
-# TEMPLATE BELOW, DON'T MODIFY, ONLY COPY=================================================================
-# ========================================================================================================
-# feature_row2:
-#   - image_path: assets/images/placeholder_300x200.png
-#     alt: "placeholder_300x200 image 2"
-#     title: "Placeholder Image Left Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
-# feature_row3:
-#   - image_path: assets/images/placeholder_300x200.png
-#     alt: "placeholder_300x200 image 2"
-#     title: "Placeholder Image Right Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
-# feature_row4:
-#   - image_path: assets/images/placeholder_300x200.png
-#     image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-#     alt: "placeholder_300x200 image 2"
-#     title: "Placeholder Image Center Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
+## Research
 
-# {% include feature_row id="feature_row2" type="left" %}
+Our research covers mapping and state estimation, interaction with soil and
+vegetation, robot and implement control, and energy use in field operations.
+We combine modelling, software development and experiments on real robots.
 
-# {% include feature_row id="feature_row3" type="right" %}
+Work within TSCF connects these topics through research programmes, joint
+laboratories with industry and international collaborations.
+The [projects and collaborations](/research/projects/) page presents this wider context.
 
-# {% include feature_row id="feature_row4" type="center" %}
--->
+<div class="grid__wrapper">
+{% for key in page.featured %}
+  {% assign post = site.research | where: 'reference', key | first %}
+  {% include archive-single.html type='grid' %}
+{% endfor %}
+</div>
+
+[Research areas and studies](/research/) · [Publications](/publications/)
+
+## Resources
+
+Information for [prospective students](/resources/prospectiveStudents/),
+a [guide for new students](/resources/newStudents/) and
+[practical notes on research and writing](/resources/).

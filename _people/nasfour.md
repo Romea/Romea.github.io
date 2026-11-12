@@ -15,7 +15,7 @@ His research focuses on robotic manipulation and motion planning in deformable n
 
 He holds a Master’s degree in **Computer Vision and Robotics (ViBOT)** from the [University of Bourgogne](https://en.u-bourgogne.fr/). Before starting his Ph.D., he developed experience through academic and research projects in computer vision and robotics, including object detection and tracking, sensor fusion, SLAM, deep learning, and robotic perception.
 
-# Research Interests
+## Research Interests
 - Robotic manipulation in deformable environments
 - Motion planning
 - 3D perception and point cloud processing
@@ -23,10 +23,11 @@ He holds a Master’s degree in **Computer Vision and Robotics (ViBOT)** from th
 - Sensor fusion
 - Learning-based perception for agricultural and natural environments
 
-# Education
+## Education
 - **Ph.D. in Robotics** – INRAE / Université Clermont Auvergne / Institut Pascal, France
 - **M.Sc. in Computer Vision and Robotics (ViBOT)** – University of Bourgogne, France
 - **B.Sc. in Information and Communication Technology** – Arab Open University, Lebanon
 
-# Publications
-<!-- {% bibliography --file JohnDoe %} -->
+## Talks
+
+- [Planning for Manipulation in Natural Deformable Environments](https://visionrobotics.eu/gofar-scientific-and-rd-workshop-2026/), GOFAR Scientific and R&D Workshop, 2026.

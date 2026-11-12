@@ -1,48 +1,37 @@
 ---
 title: "Feeling the Force: A Nuanced Physics-based Traversability Sensor for Navigation in Unstructured Vegetation"
+year: 2025
+reference: khizar2025feeling
+excerpt: "A wire-based force sensor measures vegetation resistance to support traversability assessment and navigation in natural environments."
 header:
-  teaser: assets/images/research/feeling_the_force/teaser.jpg
+  teaser: /assets/images/cards/feeling_the_force.webp
 ---
 
-<img src="/assets/images/research/feeling_the_force/teaser.jpg" alt="tall grass" style="width:100%;">
+![Vegetation in a field environment](/assets/images/research/feeling_the_force/teaser.jpg)
 
-Imagine a robot moving through a forest, brushing past tall grass and bending small branches as it advances. In structured environments like roads or factories, robots avoid obstacles at all costs. But in natural terrain, such as agricultural fields, forests, or green lands and meadows, avoiding every plant is not only impractical, it’s impossible. Sometimes, the most efficient path forward is *through* the vegetation.
+Vegetation can be traversable even when it appears as an obstacle in a geometric
+map. This study measures the resistance exerted by plants on a moving robot,
+providing information about contact that cameras and lidar do not directly measure.
 
-So how do we teach robots when it’s safe to push ahead, and when they should stop?
+## Force sensing
 
-In our recent paper, **["Feeling the Force: A Nuanced Physics-based Traversability Sensor for Navigation in Unstructured Vegetation"](https://arxiv.org/abs/2507.19831)**, we introduce a new sensor that allows robots to *feel* the resistance of plants in real time. Instead of just seeing obstacles, the robot can now sense how much force is required to move through them, enabling smarter, more adaptive navigation in complex natural environments.
+A tensioned wire mounted at the front of the robot moves when vegetation pushes
+against it. Displacement measurements and a mechanical model are used to estimate
+the contact force. The design limits internal friction so that small changes in
+resistance remain measurable.
 
-### Why Vision Isn’t Enough
-Most robotic navigation systems rely on cameras and lidar to detect obstacles. These tools are excellent at mapping geometry, but they can’t tell whether a bush is stiff or flexible. They see a wall of green and assume it’s impassable, even if it’s just tall grass that bends easily.
+![Force sensor mounted on the robot](/assets/images/research/feeling_the_force/fig2_sensor_mounted.png)
 
-Some approaches use machine learning to predict traversability from visual cues. But without physical interaction, these models often fail in new environments or under changing conditions. Our solution? Give the robot a sense of touch.
+## Field measurements
 
-### A Sensor That Feels the Pushback
-We developed a lightweight, wire-based sensor mounted on the front of a mobile robot, as shown in the figure bellow. The sensor uses a thin wire held under constant tension. When the robot encounters vegetation, the plants push against the wire, causing it to retract slightly. By measuring this displacement with high precision, we can calculate the force applied by the plant, down to the gentle brush of a grass blade.
+Experiments with grass and a sapling demonstrate the sensor's response to
+vegetation contact. Combining these measurements with the robot trajectory
+produces a spatial map of the forces encountered during traversal.
 
-<img src="/assets/images/research/feeling_the_force/fig2_sensor_mounted.png" alt="Custom force sensor mounted on robot" style="width:100%;">
+![Measured vegetation resistance along a robot trajectory](/assets/images/research/feeling_the_force/fig6_force_field_map.png)
 
-Unlike traditional bumpers, which are often too stiff or noisy for soft vegetation, our design minimizes internal friction. This makes it sensitive enough to capture subtle interactions while remaining robust in real-world conditions.
-
-### Mapping What the Robot Feels
-As the robot moves, it builds a **force field map** of its surroundings. Each cell in the map stores the average resistance measured during traversal.
-
-<img src="/assets/images/research/feeling_the_force/fig6_force_field_map.png" alt="Force field map" style="width:100%;">
-
-> **Force field map** of a grass patch. Brighter colors indicate higher resistance. The green dotted line shows the robot’s trajectory.
-
-This goes beyond traditional binary maps (free vs. occupied). Now, the robot doesn’t just know *where* obstacles are—it knows how *hard* they’ll push back.
-
-### Real-World Testing
-We tested the sensor in outdoor environments:
-- **Sapling:** Force peaked at **3 N**, capturing elastic bending and eventual yield.
-- **Grass patch:** Fluctuating forces up to **4.3 N** reflected variations in density.
-
-### Conclusion
-In nature, navigation isn’t just about avoiding obstacles, it’s about knowing which ones you can safely move through. By giving robots the ability to *feel* their environment, we’re helping them move more naturally, efficiently, and intelligently through unstructured terrain.
-
-This is more than better sensing. It’s a step toward robots that don’t just see the world—but understand it through touch.
-
-*Read the full paper: [Feeling the Force: A Nuanced Physics-based Traversability Sensor for Navigation in Unstructured Vegetation](https://arxiv.org/abs/2507.19831)*
+The measurements can support the evaluation of traversability and future
+navigation methods that account for plant resistance. The paper reports the
+sensor design, model and experimental evaluation.
 
 {% reference khizar2025feeling %}

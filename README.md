@@ -1,41 +1,69 @@
-# RLEAF website
+# R-LEAF website
 
-## Basic information
-To modify and run locally the website, you need:
-- Jekyll/bundler
-- ruby 2.x (Warning: might be troublesome to install on recent linux distro)
+A static Jekyll site for the Robotics Laboratory for the Environment and
+Autonomous Farming at INRAE. Built with Minimal Mistakes and Jekyll Scholar.
 
-**If you only need to modify an existing page, you can do it online and avoid all the tedious aspects of running the website on local. Just use the github editor!**
+## Run locally
 
-Clone this repo, then 
-`bundle exec jekyll serve --incremental`
-to create a local instance of the website.
+Use Ruby 3.4, as specified in `.ruby-version`, and Bundler:
 
-Once you are happy with the changes and the website compiles without errors, commit and push, github will deploy automatically.
-*If you don't have the rights, push on another branch and create a PR*.
+```sh
+bundle install
+bundle exec jekyll serve
+```
 
-## Modify the website
-- Posts are located in `_research/` and `_people/` folders.
-- Contact and 404 pages are located in `_pages/`. *You don't need to touch any other file in this folder*
-- Images should be in `assets/images/`. Dont hesitate to create subfolders and keep things tidy.
+Open http://localhost:4000. To check the production build:
 
-### Modify the main page
-- All the information is in `index.md`
-- To change one of the featured post, modify the `feature_row` object. Don't forget to also modify the url. 
+```sh
+JEKYLL_ENV=production bundle exec jekyll build
+python3 scripts/check_site.py
+```
 
-### Add a reseach item
-To add a research page, simply add a file in the corresponding folder.
-Don't forget to update the teaser image.
+Commit `Gemfile.lock` when changing dependencies. CI builds and checks pull
+requests; deployment only runs after a push to `master` or `main`.
 
-### Create a new people page
-1) Fill a new entry in `_data/authors.yml`.
-2) [Optionnal] add a bibliography (`.bib`file) in `_bibliography/`.
-3) Create a new file in `_people/`.
+## Edit content
 
-### Handling citations
-The website uses [Jekyll-scholar](https://github.com/inukshuk/jekyll-scholar).
+- `index.md` contains the laboratory introduction and selects the featured research.
+- `_research/` contains project summaries. Use `reference` for the matching BibTeX key,
+  `year` for ordering and `header.teaser` for a square preview. Use `status: ongoing` for a current project.
+- `_data/projects.yml` lists collective projects, their institutional context and
+  official sources. It supplies the projects page and `llms.txt`. Keep R-LEAF's
+  activities distinct from collaborations involving the wider TSCF unit; only add
+  dates, partners and roles supported by the linked source.
+- `_bibliography/references.bib` supplies the publications page, project citations
+  and each person's publication list. Filter personal lists by author rather than
+  copying references into separate files. Retain existing citation keys when
+  updating a preprint to its published version; link a specific arXiv version
+  when titles or authors have changed.
+- Research pages with a `reference` get citation metadata from that bibliography.
+  A local `paper.pdf` is also served beside the article page when a PDF is provided,
+  so its citation metadata can identify the full text.
+- `_data/authors.yml` holds member details; `_people/` contains biographies.
+  Both current and past positions can link to the same biography.
+- `_resources/` contains student information and research guides.
 
-## Advanced editing
-- For a small css change, you can add your style at the end of `assets/css/main.scss`. It will override the basic style.
-- To modify the layouts of the pages, add or modify the files in `_layout/`. As we are using a remote theme, if a file is missing, you need to copy it from the remote theme and then modify. It should override the file of the remote theme.
-- The website is built using [Minimal-Mistakes](https://mmistakes.github.io/minimal-mistakes/). See the [doc](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/) for any other modification.
+Keep preview images square and compress them before adding them. Keep plots
+readable and preserve the proportions of robots. The field photographs were
+supplied from the November 2026 presentation; web versions are resized and
+stripped of metadata. Mohamed's original portrait is kept alongside its square
+web version and excluded from the generated site.
+
+The profile template and example bibliography are editing aids, not public pages.
+
+## Search and metadata
+
+Canonical URLs use `https://rleaf.mathnum.inrae.fr` without a trailing slash in
+`_config.yml`. Jekyll generates the sitemap. `robots.txt` allows public crawling;
+`llms.txt` points compatible tools to the main content. Neither guarantees indexing
+or citations. Structured data must describe the visible content accurately.
+
+Use the `paper` fields only on a page for a specific paper with its complete
+abstract. They add scholarly citation metadata and links to the available PDF. Each bibliography
+entry can also define `doi`, `arxiv`, `publisher_url`, `hal` and `pdf` for direct
+source links; `publications.bib` exports the maintained reference file.
+Keep workshop papers, preprints and accepted publications clearly distinguished.
+
+After deployment, check GitHub Pages **Enforce HTTPS**, submit the sitemap in
+Search Console and inspect the main pages. The HTTPS setting is managed in
+GitHub, outside this source tree.

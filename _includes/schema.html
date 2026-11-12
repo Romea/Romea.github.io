@@ -1,0 +1,15 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": {{ '/#lab' | absolute_url | jsonify }},
+  "name": "R-LEAF",
+  "alternateName": "Robotics Laboratory for the Environment and Autonomous Farming",
+  "url": {{ '/' | absolute_url | jsonify }},
+  "logo": {{ site.logo | absolute_url | jsonify }},
+  "description": {{ site.description | strip | jsonify }},
+  "parentOrganization": {"@type": "Organization", "name": "INRAE", "url": "https://www.inrae.fr/en"},
+  "address": {"@type": "PostalAddress", "streetAddress": "9 avenue Blaise Pascal", "addressLocality": "Aubière", "postalCode": "63170", "addressCountry": "FR"},
+  "sameAs": ["https://github.com/Romea"]
+}
+</script>

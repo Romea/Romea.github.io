@@ -1,5 +1,6 @@
 ---
 title: "Information for new students"
+description: "Practical information on research tools, communication and getting started at the laboratory."
 header:
   teaser: assets/images/robot_300x200.jpg
 ---
@@ -11,7 +12,7 @@ Download the [PhD Guide](https://dred.uca.fr/etudes-doctoralesbr-hdr/etudes-doct
 ## Setup Tools
 - Use a bibliography manager such as [zotero](https://www.zotero.org/), and learn how to use it. Do **not** "simply" store pdfs on your computer, it is clearly not a viable option on the long run.
 - Learn how to use [Latex](https://en.wikipedia.org/wiki/LaTeX). As a French student you have access to [PLM Latex](https://plmlatex.math.cnrs.fr/project), a free online compiler.
-- Setup your Linux Machine and learn the basics of [Docker](https://www.docker.com/) and [ROS2](https://www.ros.org/).
+- Set up your Linux machine and learn the basics of [Docker](https://www.docker.com/) and [ROS2](https://www.ros.org/).
 
 ## Stay Updated
 
@@ -19,7 +20,7 @@ Download the [PhD Guide](https://dred.uca.fr/etudes-doctoralesbr-hdr/etudes-doct
 - Subscribe to the [Robotics Worldwide](https://www.robotics-worldwide.org/) and [euRobotics](http://mailing.eu-robotics.net/subscribe/community) mailing lists for updates on jobs, software releases, calls for journal special issues, and more at the global level.
 - Subscribe to the [GdR Robotique](https://www.gdr-robotique.org) mailing list for updates on jobs, software releases, calls for journal special issues, and more at the national level in France.
 
-## Kickstart Your Project/PhD
+## Starting your research
 
 During the initial months, concentrate on two primary tasks:
 
