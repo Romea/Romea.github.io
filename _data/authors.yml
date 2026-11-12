@@ -114,7 +114,7 @@ t_montagnon: # unique id, usually, initial_lastName
   
 w_dubois: # unique id, usually, initial_lastName
   name: William Dubois
-  avatar: bio-photo.jpg # best format: 250x250
+  avatar: william-dubois.jpg
   #web: /people/ihaoula
 #  info: # extra title, if necessary
   start: 2023-05-01 # AAAA-MM-DD
