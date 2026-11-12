@@ -1,5 +1,6 @@
 ---
-title: "Collection of robotic books"
+title: "Robotics reading list"
+description: "A short reading list covering robotics, estimation, optimization and mathematical foundations."
 header:
   teaser: assets/images/robot_300x200.jpg
 ---

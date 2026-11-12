@@ -1,12 +1,39 @@
 ---
 title: "Energy Prediction on Sloping Ground for Quadruped Robots"
+excerpt: "A field study of how terrain slope and heading affect quadruped energy consumption, with a sensor-based model, paper and BibTeX."
+year: 2025
+reference: ounally2025energy
+paper:
+  authors: [Mohamed Ounally, Cyrille Pierre, Johann Laconte]
+  year: 2025
+  conference: "3D-Advice: Advanced 3D Vision for Complex Environments Workshop"
+  pdf: /assets/papers/energy_prediction_slopes_2025.pdf
+  abstract: >-
+    Energy management is a fundamental challenge for legged robots in outdoor
+    environments. Endurance directly constrains mission success, while efficient
+    resource use reduces ecological impact. This paper investigates how terrain
+    slope and heading orientation influence the energetic cost of quadruped
+    locomotion. We introduce a simple energy model that relies solely on standard
+    onboard sensors, avoiding specialized instrumentation and is applicable in
+    previously unexplored environments. The model is identified from field runs
+    on a commercial quadruped and expressed as a compact function of slope angle
+    and heading. Validation on natural terrain demonstrates near-linear
+    power–slope relationships, elevated costs for lateral motion, and additive
+    behavior across trajectory segments, enabling efficient path-level energy
+    prediction.
 header:
-  teaser: /assets/images/research/energy_slopes/robot_scenario_300x200.jpg
+  teaser: /assets/images/cards/energy_prediction_slopes.webp
 ---
 
 <img src="/assets/images/research/energy_slopes/robot_scenario.jpg" alt="robot on slopes" style="width:100%;">
 
-Energy management is a fundamental challenge for legged robots in outdoor environments. This work investigates how terrain slope and heading orientation influence the energetic cost of quadruped locomotion. We introduce a simple energy model that relies solely on standard onboard sensors and is applicable in previously unexplored environments.
+**Authors:** [Mohamed Ounally](/people/mounally/), Cyrille Pierre and [Johann Laconte](/people/jlaconte/).
+
+**Publication:** 3D-Advice: Advanced 3D Vision for Complex Environments Workshop, 2025.
+
+## Abstract
+
+{{ page.paper.abstract }}
 
 ### Methodology and Setup
 
@@ -44,6 +71,8 @@ Measured power as a function of slope angle shows: power increases linearly when
 
 This energy model enables energy-aware path planning for agricultural robots, mission duration prediction, and optimization strategies that exploit directional energy asymmetries.
 
-**Downloads:** [Full Paper (PDF)](/assets/papers/energy_prediction_slopes_2025.pdf) | [BibTeX](/assets/papers/energy_slopes_citation.bib)
+**Read and cite:** [Workshop paper (PDF)](/assets/papers/energy_prediction_slopes_2025.pdf) · [BibTeX](/assets/papers/energy_slopes_citation.bib) · [arXiv preprint (2026)](https://arxiv.org/abs/2603.11963)
 
 {% reference ounally2025energy %}
+
+[All publications](/publications/) · [More research](/research/)

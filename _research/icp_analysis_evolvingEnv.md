@@ -1,7 +1,10 @@
 ---
 title: "When and Where Localization Fails: An Analysis of the Iterative Closest Point in Evolving Environment"
+year: 2025
+reference: ardannaoui_2025_icp_analysis
+excerpt: "An experimental analysis of ICP localization robustness under short-term changes in forest and campus environments."
 header:
-  teaser: assets/images/research/icp_analysis/header.png
+  teaser: /assets/images/cards/icp_analysis_evolvingenv.webp
 ---
 
 <img src="/assets/images/research/icp_analysis/header.png" alt="evolving environment" style="width:100%;">

@@ -1,7 +1,10 @@
 ---
 title: "Energy Consumption Analysis for Agricultural robots"
+year: 2024
+reference: bras2024toward
+excerpt: "Field measurements of agricultural robot energy consumption across tools, speeds and operating conditions."
 header:
-  teaser: assets/images/research/energy/topview_300x200.jpg
+  teaser: /assets/images/cards/energy.webp
 ---
 
 ![robot in field](/assets/images/research/energy/topview_1200x675.jpg)

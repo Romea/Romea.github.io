@@ -10,17 +10,17 @@ author: z_khizar # change with your own
 
 He holds a Bachelor's degree in Electrical Engineering with a major in Signal Analysis and Manipulation from [Air University, Islamabad](https://www.au.edu.pk/), where his thesis focused on designing and fabricating an open-source indoor robot capable of mapping the environment and autonomously navigating it. He completed a Master’s in Computer Vision and Robotics - [ViBOT](https://www.vibot.org/) at the [University of Bourgogne](https://en.u-bourgogne.fr/), where he conducted his thesis with the [ImVIA](https://imvia.u-bourgogne.fr/index.php/en/page-d-exemple/) lab, centering on 3D Object Semantic Mapping and Semantic Navigation.
 
-# Education
+## Education
 
 - **Ph.D. (Robotics)** - Université Clermont Auvergne (in collaboration with Institut Pascal, LIMOS, and INRAE) - Ongoing
 - **M.Sc.** in **Computer Vision and Robotics** - University of Bourgogne, 2022
 - **B.Eng.** in **Electrical Engineering** (Signal Analysis and Manipulation) - Air University, Islamabad, 2018
 
-# CV
+## CV
 
 Download [CV](https://drive.google.com/file/d/1d6hQ-dHDRlHgSPrJ2804JHsrpYafHpMw/view?usp=sharing)
 
-# Publications
+## Publications
 
 {% reference khizar2025feeling %}
 

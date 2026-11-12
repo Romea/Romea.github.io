@@ -1,0 +1,9 @@
+<ul class="project-list{% if include.projects.size == 3 %} project-list--three{% endif %}">
+{% for project in include.projects %}
+  <li>
+    <h3><a href="{{ project.url | escape }}">{{ project.name }}</a></h3>
+    <p class="project-context">{{ project.context }}</p>
+    <p>{{ project.description }}</p>
+  </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,15 @@
+{% if include.person.social %}
+<ul class="profile-links">
+{% for link in include.person.social %}
+  {% assign icon = 'fas fa-link' %}
+  {% case link[0] %}
+    {% when 'github' %}{% assign icon = 'fab fa-github' %}
+    {% when 'scholar' %}{% assign icon = 'fab fa-google-scholar' %}
+    {% when 'linkedin' %}{% assign icon = 'fab fa-linkedin' %}
+    {% when 'orcId' %}{% assign icon = 'fab fa-orcid' %}
+    {% when 'researchGate' %}{% assign icon = 'fab fa-researchgate' %}
+  {% endcase %}
+  <li><a href="{{ link[1][1] | escape }}"><i class="{{ icon }}" aria-hidden="true"></i>{{ link[1][0] }}</a></li>
+{% endfor %}
+</ul>
+{% endif %}

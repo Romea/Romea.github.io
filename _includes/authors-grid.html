@@ -1,82 +1,34 @@
-<link rel="stylesheet" href="/assets/css/authors_grid.css">
-
 {% assign count = 0 %}
 {% for item in site.data.authors %}
-
   {% assign author = item[1] %}
-	{% if author.level == level and author.end == blank %}
-		{% assign count = count | plus: 1 %}
-	{% endif %}
-	
+  {% if author.level == level and author.end == blank %}{% assign count = count | plus: 1 %}{% endif %}
 {% endfor %}
-
-
+{% assign labels = site.data.messages.locales[page.locale][level] %}
 {% if count > 0 %}
-
-
-{% assign locale = site.data.messages.locales[page.locale]%}
-{% if count > 1 %}
-<h1> {{locale.[level].plurial}} </h1>
-{% else %}
-<h1> {{locale.[level].singular}} </h1>
+<h2>{% if count == 1 %}{{ labels.singular }}{% else %}{{ labels.plurial }}{% endif %}</h2>
+<div class="people-grid">
+  {% for item in site.data.authors %}
+  {% if item[1].level == level and item[1].end == blank %}
+  {% assign author = item[1] %}
+  <div class="person-card">
+    {% assign avatar = author.avatar | default: 'bio-photo.jpg' | prepend: '/assets/people/' %}
+    <img src="{{ avatar | relative_url }}" alt="{{ author.name | escape }}" width="150" height="150" loading="lazy">
+    <div>
+      <h3>
+        {% if author.web %}
+          {% assign author_url = author.web %}
+          {% unless author.web contains '://' %}{% assign author_url = author.web | relative_url %}{% endunless %}
+          <a href="{{ author_url }}">{{ author.name }}</a>
+        {% else %}{{ author.name }}{% endif %}
+      </h3>
+      {% if author.position %}<p>{{ author.position }}</p>{% endif %}
+      {% if author.info %}<p>{{ author.info }}</p>{% endif %}
+      {% if author.topics %}<p><strong>Research:</strong> {{ author.topics }}</p>{% endif %}
+      {% include social-links.html person=author %}
+      {% if author.misc %}<p>{{ author.misc }}</p>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
 {% endif %}
-
-<div class="grid">
-{% for item in site.data.authors %}
-{% assign author = item[1] %}
-{% if author.level == level and author.end == blank %}
-
-<div class="tile">
-	{%if author.web %}
-		{%if author.webcontains "http" %}
-			<a href="{{ author.web }}" title="{{author.name}}" target="_blank">
-		{%else%}
-			<a href="{{ site.url }}{{ author.web }}" title="{{author.name}}">
-		{%endif%}
-	{%endif%}
-
-	<div class="sgrid">
-		<div class="author-image">
-			{% if author.avatar %}
-			<img src="{{ site.url }}/assets/people/{{ author.avatar }}" alt="avatar" itemprop="image">
-			{% else %}
-			<img src="{{ site.url }}/assets/people/bio-photo.jpg" alt="avatar" itemprop="image">
-			{% endif %}
-		</div><!-- ./author-image -->
-		<div class="author-content">
-			<h3 class="author-name" itemprop="author">
-				{{ author.name }}
-			</h3>
-			{{author.info}}
-			{% if author.info %}
-				<br>
-			{% endif %}
-
-
-		{% if author.start %}
-		<span style="font-style: italic;">Started on 
-			<time datetime="{{ author.start | date: "%Y-%m-%d" }}">
-				{{ author.start | date: "%B %d, %Y" }}
-			</time>
-		</span>
-		<br>
-		{% endif %}
-		{% if author.topics%}
-		<b>Expertise:</b> {{author.topics}}
-		{% endif %}
-		<br>
-		{% if author.misc%}
-		{{author.misc}}
-		{% endif %}
-		</div><!-- ./author-content -->
-	</div>
-
-	{% if author.web%}
-			</a>
-			{% endif %}
-</div><!-- /.tile -->
-
-{% endif %}
-{% endfor %}
-</div><!-- /.grid -->
-{% endif %} <!-- prof -->

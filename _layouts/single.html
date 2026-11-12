@@ -47,6 +47,9 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
+        {% if page.collection == 'research' %}
+        <p class="research-backlinks"><a href="{{ '/publications/' | relative_url }}">All publications</a> · <a href="{{ '/people/' | relative_url }}">Meet the researchers</a></p>
+        {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 

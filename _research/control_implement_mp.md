@@ -1,7 +1,10 @@
 ---
 title: "A Predictive Control Strategy to Offset-Point Tracking for Agricultural Mobile Robots"
+year: 2026
+reference: wembe2026
+excerpt: "A predictive control strategy reduces tracking errors for agricultural implements in simulation and field experiments."
 header:
-  teaser: assets/images/research/control_implement_mpc/teaser_300x200.jpg
+  teaser: /assets/images/cards/control_implement_mp.webp
 ---
 
 ![robot in field](/assets/images/research/control_implement_mpc/full.jpg)

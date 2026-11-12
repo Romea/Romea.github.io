@@ -1,0 +1,13 @@
+---
+layout: single
+---
+{{ content }}
+<h2 id="selected-studies">Selected studies</h2>
+<div class="grid__wrapper">
+{% assign projects = site.research | sort: 'year' | reverse %}
+{% for post in projects %}
+  {% unless post.status == 'ongoing' %}
+  {% include archive-single.html type='grid' %}
+  {% endunless %}
+{% endfor %}
+</div>

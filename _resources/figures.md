@@ -1,5 +1,6 @@
 ---
 title: "Paper-quality figures"
+description: "Python examples and practical advice on readable plots and scientific figures."
 header:
   teaser: assets/images/resources/paper_300x200.png
 ---

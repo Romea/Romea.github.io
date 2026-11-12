@@ -1,22 +1,28 @@
 ---
 title: "Traversability Analysis in Natural Environments"
+year: 2025
+reference: philippe2024collision
+excerpt: "Traversability analysis combining geometric and multispectral observations to study robot interaction with vegetation."
 header:
-  teaser: assets/images/research/traversability_philippe/robot_300x200.png
+  teaser: /assets/images/cards/traversability_philippe.webp
 ---
 
-![Robot in vegetation](/assets/images/research/traversability_philippe/robot.jpg)
+![Robot collecting measurements in vegetation](/assets/images/research/traversability_philippe/robot.jpg)
 
-We introduce a novel method for safe navigation in unstructured agricultural environments. The research focuses on enhancing the autonomy and resilience of agricultural robots by distinguishing between safely traversable and non-traversable obstacles.
-The study was conducted using a teleoperated platform equipped with advanced sensors, including a Hesai Pandar XT-32 LiDAR, a Silios CMS-V VNIR multispectral camera, and an Intel Realsense D415 stereoscopic camera. Data was collected in various environments, such as a park with tall grass, untrimmed trees, and winding paths.
+This study examines how geometric and multispectral measurements can help a
+robot distinguish vegetation from rigid obstacles. The aim is to assess the
+consequences of contact when planning a route through an agricultural environment.
 
+A teleoperated platform collects lidar, depth and multispectral observations.
+The method combines these observations in a map augmented with estimates of
+vegetation mass density, then evaluates traversal through the predicted loss
+of vehicle velocity.
 
-![plot of implements consumptions](/assets/images/research/traversability_philippe/pipeline.png)
+![Pipeline combining geometric and multispectral observations](/assets/images/research/traversability_philippe/pipeline.png)
 
-
-Our analysis shows that the robot's ability to navigate safely is significantly enhanced by using multispectral metrics for vegetation detection. By integrating depth and spectral modalities, we created a mass density-augmented map that significantly improves the robot's understanding of its environment. This method allows the robot to evaluate potential paths based on the loss of velocity, ensuring safe and efficient navigation.
-
-Furthermore, the study revealed that using the Normalized Difference Vegetation Index (NDVI) yields the most effective results in terms of detection accuracy and computational efficiency. This approach enables the robot to differentiate between dangerous and safe collisions, adapting to various UGV models and specific vehicle requirements.
-
-
+The evaluation compares vegetation detection metrics, including the Normalized
+Difference Vegetation Index (NDVI). It studies how the resulting representation
+can inform collision-aware path assessment for different vehicle properties.
+The paper describes the sensing pipeline, model and experimental conditions.
 
 {% reference philippe2024collision %}

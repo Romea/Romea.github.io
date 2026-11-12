@@ -11,13 +11,13 @@ locales:
     updated: "Updated"
     started_on: "Started on"
     share: "Share on"
-    site_title: "Northern Robotics Laboratory"
+    site_title: "R-LEAF"
     home: "/"
     no_translation: "Only in French"
     follow_me: "Follow me"
     prof:
-      singular: "Professor"
-      plurial: "Professors"
+      singular: "Researcher"
+      plurial: "Researchers"
     engineer:
       singular: "Research Engineer"
       plurial: "Research Engineers"
