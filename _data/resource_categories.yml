@@ -2,7 +2,8 @@
   title: Joining the group
 - id: reading-writing
   title: Reading and writing
-- id: research-tools
-  title: Research tools
-- id: llms
-  title: Language models in research
+# Hidden with the simulation and LLM guides (see exclude in _config.yml).
+# - id: research-tools
+#   title: Research tools
+# - id: llms
+#   title: Language models in research

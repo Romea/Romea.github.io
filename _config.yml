@@ -55,6 +55,9 @@ exclude:
   - vendor
   - _people/template.md
   - _research/template.md
+  # Guides kept as Markdown but not published for now.
+  - _resources/simulation.md
+  - _resources/llms.md
   - assets/images/research/feeling_the_force/readme.md
   - assets/images/publications/README.md
   - assets/people/mohamed-ounally.jpeg
@@ -114,6 +117,11 @@ footer:
       url: "https://github.com/Romea"
 
 defaults:
+  # Search Console verification file: keep it out of the sitemap
+  - scope:
+      path: "googlec427d61054e3b6c4.html"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
@@ -217,7 +225,7 @@ scholar:
   group_order: descending
   bibliography_template: bibliography
   type_order: [article, inproceedings]
-  sort_by: year
+  sort_by: year, month
   order: reverse
   bibtex_skip_fields: 
     - abstract

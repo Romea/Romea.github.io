@@ -5,7 +5,8 @@
   </a>
   {% endif %}
   <div class="publication-content">
-    <p class="publication-meta"><time datetime="{{ publication.date }}">{{ publication.date | date: '%B %Y' }}</time> · {{ publication.venue }}{% if publication.status == 'preprint' %} · Preprint{% endif %}</p>
+    {% assign month = publication.date | slice: 0, 7 | append: '-01' %}
+    <p class="publication-meta"><time datetime="{{ publication.date }}">{{ month | date: '%B %Y' }}</time> · {{ publication.venue }}{% if publication.status == 'preprint' %} · Preprint{% endif %}</p>
     <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
     <p class="publication-summary">{{ publication.summary }}</p>
     <p class="publication-authors">{% if include.compact %}{{ publication.byline }}{% else %}{{ publication.authors | join: ', ' }}{% endif %}{% if publication.image_credit %} · <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>{% endif %}</p>

@@ -8,7 +8,10 @@
   "url": {{ '/' | absolute_url | jsonify }},
   "logo": {{ site.logo | absolute_url | jsonify }},
   "description": {{ site.description | strip | jsonify }},
-  "parentOrganization": {"@type": "Organization", "name": "INRAE", "url": "https://www.inrae.fr/en"},
+  "parentOrganization": {"@type": "Organization", "name": "TSCF research unit", "url": "https://tscf.clermont.hub.inrae.fr/",
+    "parentOrganization": {"@type": "Organization", "name": "INRAE", "url": "https://www.inrae.fr/en"}},
+  "knowsAbout": ["Agricultural robotics", "Field robotics", "Autonomous navigation", "Perception and mapping", "Robot control", "Robot interaction with natural environments"],
+  "member": [{% for item in site.data.authors %}{% assign person = item[1] %}{% if person.end == nil %}{% unless forloop.first %},{% endunless %}{"@type": "Person", "name": {{ person.name | jsonify }}{% if person.web %}, "url": {{ person.web | absolute_url | jsonify }}{% endif %}}{% endif %}{% endfor %}],
   "address": {"@type": "PostalAddress", "streetAddress": "9 avenue Blaise Pascal", "addressLocality": "Aubière", "postalCode": "63170", "addressCountry": "FR"},
   "sameAs": ["https://github.com/Romea"]
 }

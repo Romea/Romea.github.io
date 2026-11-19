@@ -27,7 +27,8 @@ a:focus-visible, button:focus-visible { outline: 2px solid #245f64; outline-offs
 .wide .page__inner-wrap { max-width: none; }
 .page__content { text-align: left; overflow-wrap: anywhere; }
 .breadcrumbs { max-width: 1200px; margin-inline: auto; }
-.breadcrumbs ol { float: none; width: 100%; max-width: 76ch; margin-inline: auto; }
+/* Breadcrumb text is .75em, so scale 76ch to match the content column. */
+.breadcrumbs ol { float: none; width: 100%; max-width: calc(76ch / .75); margin-inline: auto; }
 .wide .breadcrumbs ol { max-width: none; }
 .page__title { line-height: 1.25; }
 .splash { max-width: 1200px; margin-inline: auto; }

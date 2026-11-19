@@ -55,7 +55,9 @@
     "url": {{ page.url | absolute_url | jsonify }},
     "description": {{ page.excerpt | default: person.topics | strip_html | strip | jsonify }},
     "image": {{ person.avatar | default: 'bio-photo.jpg' | prepend: '/assets/people/' | absolute_url | jsonify }}{% unless person.end %},
-    "affiliation": {"@id": {{ '/#lab' | absolute_url | jsonify }}}{% endunless %}{% if person.social %},
+    "affiliation": {"@id": {{ '/#lab' | absolute_url | jsonify }}}{% else %},
+    "alumniOf": {"@id": {{ '/#lab' | absolute_url | jsonify }}}{% endunless %}{% if person.topics %},
+    "knowsAbout": {{ person.topics | split: ', ' | jsonify }}{% endif %}{% if person.social %},
     "sameAs": [{% for link in person.social %}{{ link[1][1] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}
   }
 }

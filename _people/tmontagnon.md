@@ -14,7 +14,7 @@ For his final internship, he spent six months in Japan at the [National Institut
 
 ## Publications
 
-{% bibliography --query @*[author ~= Montagnon] %}
+{% bibliography --query @*[author ~= Montagnon && scope != hidden] %}
 
 ## Education
 

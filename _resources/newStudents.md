@@ -6,10 +6,10 @@ order: 2
 icon: fas fa-compass
 description: "Practical information on research tools, communication and getting started at the laboratory."
 header:
-  teaser: /assets/images/field/montoldre-farm.webp
+  teaser: /assets/images/field/lab-park.webp
 ---
 
-<img class="resource-banner" src="/assets/images/field/montoldre-farm.webp" alt="Experimental farm and fields at Montoldre" width="1200" height="300">
+<img class="resource-banner" src="/assets/images/field/lab-park.webp" alt="Park next to the laboratory, used for first robot tests" width="1200" height="300">
 
 Download the [PhD Guide](https://dred.uca.fr/etudes-doctoralesbr-hdr/etudes-doctorales/espace-des-doctorants/guide-du-doctorant) from the doctoral school.
 

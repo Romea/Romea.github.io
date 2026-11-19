@@ -1,15 +1,15 @@
 ---
 title: Publications
-excerpt: "Publications by Johann Laconte, R-LEAF members and collaborators, with links to IEEE, DOI records, arXiv and HAL."
+excerpt: "Publications by current and former R-LEAF members at INRAE, in agricultural and field robotics, with links to IEEE, DOI records, arXiv and HAL."
 permalink: /publications/
 layout: single
 ---
 
-Publications by Johann Laconte, students and collaborators.
+Publications by current and former R-LEAF members and their collaborators.
 
 [Download BibTeX](/publications.bib)
 
-{% bibliography --query @*[scope != personal] %}
+{% bibliography --query @*[scope != hidden] %}
 
 Johann Laconte's records are also available on
 [Google Scholar](https://scholar.google.fr/citations?user=cVFALvkAAAAJ) and

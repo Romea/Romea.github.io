@@ -4,15 +4,19 @@ layout: splash
 excerpt: >-
   We study perception, navigation and robot interaction with natural environments,
   with applications in agriculture and environmental surveying.
+description: >-
+  R-LEAF is an agricultural and field robotics research group at INRAE in Aubière,
+  near Clermont-Ferrand, France: perception, mapping, navigation and control of
+  robots in natural environments, with information for prospective PhD students and interns.
 header:
   overlay_color: "#000"
   overlay_filter: "0.45"
   overlay_image: /assets/images/splash.webp
 ---
 
-R-LEAF is a robotics research group at [INRAE](https://www.inrae.fr/en), within the
+R-LEAF is an agricultural and field robotics research group at [INRAE](https://www.inrae.fr/en), within the
 [Technologies and Information Systems for Agroecosystems (TSCF)](https://tscf.clermont.hub.inrae.fr/)
-research unit in Aubière, France.
+research unit in Aubière, near Clermont-Ferrand, France.
 
 <div class="section-heading">
   <h2 id="recent-publications">Recent publications</h2>

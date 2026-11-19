@@ -9,7 +9,7 @@ header:
   teaser: /assets/images/field/montoldre-landscape.webp
 ---
 
-<img class="resource-banner" src="/assets/images/field/montoldre-landscape.webp" alt="Agricultural landscape near the experimental farm" width="1200" height="300">
+<img class="resource-banner" src="/assets/images/field/montoldre-landscape.webp" alt="Pond and woodland near the experimental farm" width="1200" height="300">
 
 Below is a small collection of books I recommend reading, depending on your research project.
 Don't hesitate to contribute to this list. Add the author, the topic and a link
