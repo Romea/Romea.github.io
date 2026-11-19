@@ -37,6 +37,8 @@ layout: default
         </header>
       {% endunless %}
 
+      {% include content-author.html %}
+
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
@@ -48,7 +50,7 @@ layout: default
         {% endif %}
         {{ content }}
         {% if page.collection == 'research' %}
-        <p class="research-backlinks"><a href="{{ '/publications/' | relative_url }}">All publications</a> · <a href="{{ '/people/' | relative_url }}">Meet the researchers</a></p>
+        <p class="research-backlinks"><a href="{{ '/publications/' | relative_url }}">Publications</a></p>
         {% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>

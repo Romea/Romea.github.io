@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [master, main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * 1'
 
 permissions:
   contents: read
@@ -18,23 +20,32 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Check publication sync
+        run: bundle exec ruby scripts/test_publications.rb
+      - name: Refresh publications (HAL and Semantic Scholar)
+        run: bundle exec ruby scripts/update_publications.rb
       - name: Build site
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Compress photos and remove their metadata
+        continue-on-error: true
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends imagemagick
+          find _site -type f \( -iname '*.jpg' -o -iname '*.jpeg' \) -exec mogrify -strip -resize '1600x1600>' -quality 82 {} +
       - name: Check pages and links
         run: python3 scripts/check_site.py
-      - uses: actions/upload-pages-artifact@v3
-        if: github.event_name != 'pull_request'
+      - uses: actions/upload-pages-artifact@v5
+        if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     needs: build
     runs-on: ubuntu-latest
     permissions:
@@ -44,5 +55,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v5
         id: deployment

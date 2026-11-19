@@ -1,0 +1,6 @@
+{% assign writer = site.data.authors[page.author] %}
+{% if writer %}
+<p class="content-author">By {% if writer.web %}<a href="{{ writer.web | relative_url }}" rel="author">{{ writer.name }}</a>{% else %}{{ writer.name }}{% endif %}</p>
+{% elsif page.collection == 'resources' %}
+<p class="content-author">R-LEAF research notes</p>
+{% endif %}

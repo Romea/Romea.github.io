@@ -7,15 +7,16 @@ search: false
 
 > Robotics Laboratory for the Environment and Autonomous Farming, INRAE, France.
 
-R-LEAF is part of INRAE's Technologies and Information Systems for Agroecosystems
-(TSCF) research unit in Aubière, France. Its work concerns autonomous navigation,
+R-LEAF is an agricultural and field robotics research group in INRAE's
+Technologies and Information Systems for Agroecosystems (TSCF) research unit in
+Aubière, near Clermont-Ferrand, France. Its work concerns autonomous navigation,
 mapping, state estimation, control and robot interaction with natural environments.
 
 ## Laboratory
 
-- [Research areas]({{ '/research/' | absolute_url }}): Perception and mapping, navigation and mobility, interaction with natural environments, and selected studies.
+- [Research]({{ '/research/' | absolute_url }}): Perception and mapping, navigation and control, interaction with non-rigid environments, and selected papers with research writeups.
 - [Projects]({{ '/research/projects/' | absolute_url }}): ORICA, the research programme led by Johann Laconte at INRAE.
-- [Publications]({{ '/publications/' | absolute_url }}): References with verified links to arXiv, IEEE, publishers, DOI records and HAL.
+- [Publications]({{ '/publications/' | absolute_url }}): Bibliography by year, with links to arXiv, IEEE, publishers, DOI records and HAL.
 - [BibTeX bibliography]({{ '/publications.bib' | absolute_url }}): Machine-readable references and source identifiers.
 - [People]({{ '/people/' | absolute_url }}): Researchers, doctoral students and alumni, with available academic profiles.
 - [Resources]({{ '/resources/' | absolute_url }}): Student information and practical research guides.
@@ -32,21 +33,16 @@ mapping, state estimation, control and robot interaction with natural environmen
 {% for project in site.data.projects %}- [{{ project.name }}]({{ project.url }}): Led by {{ project.leader }}. {{ project.programme }}. {{ project.description }}
 {% endfor %}
 
-## Recent publications
+## Research writeups
 
-{% for publication in site.data.home_publications %}- [{{ publication.title }}]({{ publication.url }}): {{ publication.byline }} {% if publication.date %}{{ publication.date | date: '%Y-%m-%d' }}{% else %}{{ publication.year }}{% endif %}. {{ publication.status }}. {{ publication.description }}
+{% for publication in site.data.publications %}- [{{ publication.title }}]({{ publication.source_url }}): {{ publication.authors | join: ', ' }}. {{ publication.date }}, {{ publication.venue }}. {{ publication.status }}. {{ publication.summary }} [Research notes]({{ publication.url | absolute_url }}).
+{% endfor %}
+## Student information and guides
+
+{% for resource in site.resources %}- [{{ resource.title }}]({{ resource.url | absolute_url }}): {{ resource.description }}
 {% endfor %}
 
-## Selected work
-
-- [CropCraft](https://arxiv.org/abs/2511.02417v2): Bertoglio, Pierre, Laconte and Lenain, revised June 2026 preprint. The earlier [2025 workshop paper](https://arxiv.org/abs/2511.02417v1) has a different title and author list; use the metadata of the cited version.
-- [Tracking the Ground](https://arxiv.org/abs/2609.15667): Montagnon, Laconte, Thuilot, Cho and Lenain, 2026 preprint on robot-induced soil deformation.
-- [When Obstacles Bend](https://arxiv.org/abs/2608.26050): Khizar, Montagnon, Lenain, Aufrère and Laconte, 2026 preprint on vegetation deformation.
-- [Predictive control for offset-point tracking](https://doi.org/10.1109/TFR.2026.3680046): Wembe, Rousseau, Laconte and Lenain, 2026.
-- [Feeling the Force](https://arxiv.org/abs/2507.19831): Khizar, Laconte, Lenain and Aufrère, 2025; [IEEE publication](https://doi.org/10.1109/ECMR65884.2025.11163109).
-- [When and Where Localization Fails](https://arxiv.org/abs/2507.17531): Dannaoui, Laconte, Debain, Pomerleau and Checchin, 2025; [IEEE publication](https://doi.org/10.1109/ECMR65884.2025.11162975).
-- [Energy Prediction on Sloping Ground for Quadruped Robots](https://arxiv.org/abs/2603.11963): Ounally, Pierre and Laconte; presented at a workshop in 2025, preprint released in 2026.
-
+The complete bibliography is in [publications.bib]({{ '/publications.bib' | absolute_url }}).
 Project descriptions, ongoing research and published results have different
 statuses. Use the linked paper and its stated publication status for scientific
 attribution; do not treat a preprint or a doctoral objective as an accepted result.

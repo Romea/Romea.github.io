@@ -2,9 +2,15 @@
 title: "A Novel Control Strategy for Offset Points Tracking in the Context of Agricultural Robotics"
 year: 2025
 reference: wembe2025
-excerpt: "Control strategies for tracking an offset point on an agricultural implement, evaluated in field experiments."
+author: j_laconte
+publication_date: "2025-05"
+publication_type: conference
+publication_status: published
+venue: ICRA
+image_alt: Agricultural robot testing an implement in crop rows
+excerpt: "Controlling the motion of an agricultural tool through a point attached to it."
 header:
-  teaser: /assets/images/cards/control_implement.webp
+  teaser: /assets/images/publications/implement-control.webp
 ---
 
 ![robot in field](/assets/images/research/control_implement/full.jpg)

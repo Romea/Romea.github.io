@@ -22,8 +22,4 @@ Download [CV](https://drive.google.com/file/d/1d6hQ-dHDRlHgSPrJ2804JHsrpYafHpMw/
 
 ## Publications
 
-{% reference khizar2025feeling %}
-
-{% reference zeeshan20253d %}
-
-{% reference khizar2026obstacles %}
+{% bibliography --query @*[author ~= Khizar && scope != hidden] %}

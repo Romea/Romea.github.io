@@ -22,4 +22,4 @@ Download [CV](https://drive.google.com/file/d/1-CKjaK2urKnFE7tVTpfJTswC9CTnjoSA/
 
 ## Publications
 
-{% bibliography --query @*[author ~= Dannaoui] %}
+{% bibliography --query @*[author ~= Dannaoui && scope != hidden] %}

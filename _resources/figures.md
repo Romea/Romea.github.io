@@ -1,11 +1,13 @@
 ---
 title: "Paper-quality figures"
+author: j_laconte
+resource_category: reading-writing
+order: 3
+icon: fas fa-chart-line
 description: "Python examples and practical advice on readable plots and scientific figures."
 header:
-  teaser: assets/images/resources/paper_300x200.png
+  teaser: /assets/images/resources/graph.png
 ---
-
-![intro figure](/assets/images/resources/paper.png)
 
 This post presents a few guidelines on how to prepare graphs (in Python) for a paper or a thesis
 
@@ -69,7 +71,7 @@ HEIGHT = WIDTH / 1.618 # inches
 From there, create your figure as usual. In the last cell, include:
 
 ```python
-fig.set_size_inches(width, height)
+fig.set_size_inches(WIDTH, HEIGHT)
 fig.subplots_adjust(left=0.14, bottom=0.02, right=0.99, top=0.98)
 plt.savefig('mapping_violins_rpe.pdf', dpi=300)
 ```
@@ -78,7 +80,7 @@ Tune the parameters of `subplot_adjust` so that the exported pdf does not crop t
 ## Should I Rasterize My Figure?
 
 Avoid rasterizing your figure unless it contains a large number of points and the PDF reader takes a long time to load the figure.
-If you wish to rasterize a part of the figure, simply add the parameter `rasterize=True`in the corresponding `ax.scatter`.
+If you wish to rasterize a part of the figure, simply add `rasterized=True` to the corresponding `ax.scatter`.
 
 
 

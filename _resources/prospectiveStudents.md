@@ -1,8 +1,12 @@
 ---
 title: "Information for prospective students"
+author: j_laconte
+resource_category: joining
+order: 1
+icon: fas fa-user-graduate
 description: "Internships, doctoral research and short research visits: what to prepare before contacting the laboratory."
 header:
-  teaser: assets/images/robot_300x200.jpg
+  teaser: /assets/images/field/montoldre-farm.webp
 ---
 
 If you would like to join R-LEAF, start with our [research projects](/research/)

@@ -1,8 +1,15 @@
 ---
 title: "Energy Prediction on Sloping Ground for Quadruped Robots"
-excerpt: "A field study of how terrain slope and heading affect quadruped energy consumption, with a sensor-based model, paper and BibTeX."
+excerpt: "Predicting a quadruped's energy use from the slope and direction of travel."
 year: 2025
 reference: ounally2025energy
+author: m_ounally
+publication_date: "2025-09"
+publication_type: workshop
+publication_status: published
+venue: ECMR 3D-AdViCE workshop
+image_alt: Quadruped robot on sloping ground during an outdoor experiment
+image_fit: contain
 paper:
   authors: [Mohamed Ounally, Cyrille Pierre, Johann Laconte]
   year: 2025
@@ -22,7 +29,7 @@ paper:
     behavior across trajectory segments, enabling efficient path-level energy
     prediction.
 header:
-  teaser: /assets/images/cards/energy_prediction_slopes.webp
+  teaser: /assets/images/publications/energy-slopes.webp
 ---
 
 <img src="/assets/images/research/energy_slopes/robot_scenario.jpg" alt="robot on slopes" style="width:100%;">

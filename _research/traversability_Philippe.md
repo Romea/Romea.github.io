@@ -2,9 +2,15 @@
 title: "Traversability Analysis in Natural Environments"
 year: 2025
 reference: philippe2024collision
-excerpt: "Traversability analysis combining geometric and multispectral observations to study robot interaction with vegetation."
+author: j_laconte
+publication_date: "2025-05"
+publication_type: conference
+publication_status: published
+venue: ICRA
+image_alt: Mobile robot driving through a grassy field
+excerpt: "Estimating where a robot can drive using geometry and multispectral measurements."
 header:
-  teaser: /assets/images/cards/traversability_philippe.webp
+  teaser: /assets/images/publications/traversability.webp
 ---
 
 ![Robot collecting measurements in vegetation](/assets/images/research/traversability_philippe/robot.jpg)

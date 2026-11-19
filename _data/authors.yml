@@ -11,6 +11,8 @@
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
 #  level:  # prof, staff, postdoc, phd, master, intern, visitor
 #  topics: "topic 1, topic 2, topic 3, topic 4"
+#  semantic_scholar_id: # number in the Semantic Scholar author URL; adds this person's papers to Publications
+#  hal_id: # HAL idHal (cv.hal.science/<idHal>); optional
 
 
 # NOTE: Keep active members on top of the file
@@ -29,11 +31,14 @@ j_laconte: # unique id, usually, initial_lastName
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: prof # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Field Robotics, State Estimation, Traversability, Autonomous Navigation, Applied Mathematics"
+  semantic_scholar_id: 78208115
+  hal_id: johann-laconte
   social:
     scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=cVFALvkAAAAJ"]
+    hal: ["HAL", "https://cv.hal.science/johann-laconte"]
     github: ["GitHub", "https://github.com/JohannLac"]
     researchGate: ["Research Gate", "https://www.researchgate.net/profile/Johann_Laconte"]
-    linkedin: ["Linkedin", "https://www.linkedin.com/in/jlaconte/"]
+    linkedin: ["LinkedIn", "https://www.linkedin.com/in/jlaconte/"]
     orcId: ["ORCID", "https://orcid.org/0000-0002-2274-9835"]
 
 m_ounally: # unique id, usually, initial_lastName
@@ -46,6 +51,7 @@ m_ounally: # unique id, usually, initial_lastName
   #end:  2026-10-01 # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Control, Mapping, State Estimation, Overactuated Robots"
+  semantic_scholar_id: 2423447846
   social:
     scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=3NzH-uwAAAAJ&hl=fr"]
     orcId: ["ORCID", "https://orcid.org/0009-0005-2700-943X"]
@@ -62,8 +68,8 @@ n_asfour: # unique id, usually, initial_lastName
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
   topics: "Manipulation, Planning, Deformable Environment"
   social:
-    linkedin: ["Linkedin", "https://www.linkedin.com/in/nouriddin-asfour"]
-    github: ["Github", "https://github.com/Nouriddinasfour"]
+    linkedin: ["LinkedIn", "https://www.linkedin.com/in/nouriddin-asfour"]
+    github: ["GitHub", "https://github.com/Nouriddinasfour"]
   
 
 z_khizar: # unique id, usually, initial_lastName
@@ -75,11 +81,13 @@ z_khizar: # unique id, usually, initial_lastName
   start: 2024-08-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  semantic_scholar_id: 2373604616
+  hal_id: muhammad-haseeb-khizar
   topics: "Traversability, State Estimation, Navigation, SLAM, Computer Vision"
   social:
     scholar: ["Google Scholar", "https://scholar.google.com/citations?user=W0n9NXsAAAAJ&hl"]
-    linkedin: ["Linkedin", "https://www.linkedin.com/in/zaar-ali"]
-    github: ["Github", "https://github.com/zaarAli" ]
+    linkedin: ["LinkedIn", "https://www.linkedin.com/in/zaar-ali"]
+    github: ["GitHub", "https://github.com/zaarAli" ]
     orcId: ["ORCID", "https://orcid.org/0009-0009-2297-4934"]
 
 a_dannaoui: # unique id, usually, initial_lastName
@@ -90,11 +98,12 @@ a_dannaoui: # unique id, usually, initial_lastName
   start: 2024-09-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  semantic_scholar_id: 2376189498
   topics: "Mapping, SLAM, Computer Vision, Iterative Closest Point (ICP)"
   social:
     scholar: ["Google Scholar", "https://scholar.google.com/citations?user=tV31vPgAAAAJ&hl=en"]
-    linkedin: ["Linkedin", "https://www.linkedin.com/in/abdelraouf-dannaoui/"]
-    github: ["Github", "https://github.com/RaoufDannaoui1" ]
+    linkedin: ["LinkedIn", "https://www.linkedin.com/in/abdelraouf-dannaoui/"]
+    github: ["GitHub", "https://github.com/RaoufDannaoui1" ]
 
 
 t_montagnon: # unique id, usually, initial_lastName
@@ -105,6 +114,7 @@ t_montagnon: # unique id, usually, initial_lastName
   start: 2024-10-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  semantic_scholar_id: 2459582540
   topics: "Control, Soil Deformation"
   social:
     scholar: ["Google Scholar", "https://scholar.google.fr/citations?user=LorFSnkAAAAJ&hl=fr"]
@@ -120,6 +130,7 @@ w_dubois: # unique id, usually, initial_lastName
   start: 2023-05-01 # AAAA-MM-DD
 #  end:  # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  semantic_scholar_id: 2497044646
   topics: "Mapping, ICP, sensor fusion"
   misc: "<b>Main supervisor:</b> <a href=\"https://norlab-ulaval.github.io/\">François Pomerleau</a>"
 
@@ -137,6 +148,7 @@ s_wembe: # unique id, usually, initial_lastName
   start: 2023-04-01 # AAAA-MM-DD
   end:  2026-04-01 # AAAA-MM-DD, keep empty if still in the lab
   level: phd # prof, staff, postdoc, phd, master, intern, visitor
+  semantic_scholar_id: 2349385982
   topics: "Control, Model Predictive Control, Agricultural Robotics"
   misc: "<b>In collaboration with </b> <a href=\"https://sabi-agri.com/\">Sabi Agri</a> ; <b>Main supervisor:</b> <a href=\"https://tscf.clermont.hub.inrae.fr/l-unite-tscf/annuaire/lenain-roland\">Roland Lenain</a>"
 
@@ -176,6 +188,7 @@ a_montanaro: # unique id, usually, initial_lastName
   start: 2024-04-01 # AAAA-MM-DD
   end:   2024-10-01
   level: intern # prof, staff, postdoc, phd, master, intern, visitor
+  semantic_scholar_id: 2325157240
   topics: "Iterative Closest Point (ICP)"
 
 f_philiipe: # unique id, usually, initial_lastName
@@ -191,3 +204,4 @@ a_bras: # unique id, usually, initial_lastName
   start: 2024-05-01 # AAAA-MM-DD
   end:   2024-08-01 # keep empty if still in the lab
   level: intern # prof, engineer, postdoc, phd, master, intern, visitor
+  semantic_scholar_id: 2548187000

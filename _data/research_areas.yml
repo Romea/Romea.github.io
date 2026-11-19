@@ -1,12 +1,12 @@
 - title: Perception and mapping
   image: /assets/images/field/adap2e.webp
   alt: Adap2E research robot equipped with sensors in an orchard
-  description: We study perception and state estimation in environments that change over time. Maps must remain useful as vegetation, weather and scene geometry evolve.
-- title: Navigation and mobility
+  description: We use sensor data to help robots locate themselves and build maps of their surroundings.
+- title: Navigation and control
   image: /assets/images/field/zilus.webp
   alt: Agricultural robot between rows of vines
-  description: We develop planning and control methods for robots operating on uneven, deformable terrain, taking account of uncertainty and energy use.
+  description: Our work covers motion planning and control, from choosing a route to following it on a real robot.
 - title: Interaction with natural environments
   image: /assets/images/field/b1-vegetation.webp
   alt: Quadruped robot with a manipulator beside a tree
-  description: We model how robots interact with soil and vegetation, and use these models for traversability assessment and manipulation.
+  description: We study contact with non-rigid environments, and how robots can use that contact to move and manipulate objects.

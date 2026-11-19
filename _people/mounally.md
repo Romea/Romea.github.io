@@ -55,4 +55,4 @@ in subjects related to robotics, control and programming.
 
 ## Publications
 
-{% bibliography --query @*[author ~= Ounally] %}
+{% bibliography --query @*[author ~= Ounally && scope != hidden] %}

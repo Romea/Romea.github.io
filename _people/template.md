@@ -16,5 +16,5 @@ status accurate and link to papers, code and academic profiles when available.
 ## Publications
 
 {% comment %}Use a bibliography query for this person's surname, for example:
-{% bibliography --query @*[author ~= Surname] %}
+{% bibliography --query @*[author ~= Surname && scope != hidden] %}
 {% endcomment %}

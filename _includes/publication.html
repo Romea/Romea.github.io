@@ -1,0 +1,20 @@
+<article class="publication">
+  {% if publication.image %}
+  <a class="publication-preview{% if publication.image_fit == 'contain' %} publication-diagram{% endif %}" href="{{ publication.url | relative_url }}" aria-label="{{ publication.title | escape }}">
+    <img src="{{ publication.image | relative_url }}" alt="{{ publication.alt | escape }}" width="800" height="450" loading="lazy">
+  </a>
+  {% endif %}
+  <div class="publication-content">
+    {% assign month = publication.date | slice: 0, 7 | append: '-01' %}
+    <p class="publication-meta"><time datetime="{{ publication.date }}">{{ month | date: '%B %Y' }}</time> · {{ publication.venue }}{% if publication.status == 'preprint' %} · Preprint{% endif %}</p>
+    <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+    <p class="publication-summary">{{ publication.summary }}</p>
+    <p class="publication-authors">{% if include.compact %}{{ publication.byline }}{% else %}{{ publication.authors | join: ', ' }}{% endif %}{% if publication.image_credit %} · <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>{% endif %}</p>
+    <p class="publication-links">
+      {% if publication.source_url %}<a href="{{ publication.source_url | escape }}">{% if publication.source_url contains 'ieeexplore.ieee.org' %}IEEE{% else %}Paper{% endif %}</a>{% endif %}
+      {% if publication.arxiv %}<a href="{{ publication.arxiv }}">arXiv</a>{% endif %}
+      {% if publication.hal %}<a href="{{ publication.hal }}">HAL</a>{% endif %}
+      {% if publication.pdf %}<a href="{{ publication.pdf | relative_url }}">PDF</a>{% endif %}
+    </p>
+  </div>
+</article>

@@ -19,8 +19,8 @@ locale: en
 logo: assets/images/logo.png
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  R-LEAF is an INRAE robotics laboratory in Aubière, France, studying autonomous
-  navigation, mapping, control and robot interaction with natural environments.
+  R-LEAF is a research group at INRAE in Aubière, France, working on agricultural
+  robotics, perception, mapping, navigation and control in natural environments.
 
 # twitter_username: username
 github_username: Romea
@@ -47,14 +47,24 @@ include:
   - _pages
 
 exclude:
+  - AGENTS.md
+  - CLAUDE.md
   - _drafts
   - README.md
   - scripts
   - vendor
   - _people/template.md
+  - _research/template.md
+  # Guides kept as Markdown but not published for now.
+  - _resources/simulation.md
+  - _resources/llms.md
   - assets/images/research/feeling_the_force/readme.md
   - assets/images/publications/README.md
   - assets/people/mohamed-ounally.jpeg
+  - assets/images/robot_1200x500.jpg
+  - assets/images/robot_300x200.jpg
+  - assets/images/resources/paper.png
+  - assets/images/resources/paper_300x200.png
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -107,6 +117,11 @@ footer:
       url: "https://github.com/Romea"
 
 defaults:
+  # Search Console verification file: keep it out of the sitemap
+  - scope:
+      path: "googlec427d61054e3b6c4.html"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
@@ -141,6 +156,7 @@ defaults:
       layout: single
       author_profile: false
       share: false
+      order: 50
   # equipment
   - scope:
       path: ""
@@ -209,7 +225,7 @@ scholar:
   group_order: descending
   bibliography_template: bibliography
   type_order: [article, inproceedings]
-  sort_by: year
+  sort_by: year, month
   order: reverse
   bibtex_skip_fields: 
     - abstract

@@ -2,9 +2,15 @@
 title: "Energy Consumption Analysis for Agricultural robots"
 year: 2024
 reference: bras2024toward
-excerpt: "Field measurements of agricultural robot energy consumption across tools, speeds and operating conditions."
+author: j_laconte
+publication_date: "2024-10"
+publication_type: preprint
+publication_status: preprint
+venue: arXiv
+image_alt: Aerial view of a robot and its agricultural implement
+excerpt: "Measuring the energy used by a robot and its tools during fieldwork."
 header:
-  teaser: /assets/images/cards/energy.webp
+  teaser: /assets/images/publications/energy.webp
 ---
 
 ![robot in field](/assets/images/research/energy/topview_1200x675.jpg)

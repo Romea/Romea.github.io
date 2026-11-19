@@ -22,4 +22,4 @@ He defended his Ph.D. at Université Clermont Auvergne on 19 May 2026.
 
 ## Publications
 
-{% bibliography --query @*[author ~= Wembe] %}
+{% bibliography --query @*[author ~= Wembe && scope != hidden] %}

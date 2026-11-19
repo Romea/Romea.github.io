@@ -1,6 +1,22 @@
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
 <link rel="describedby" href="{{ '/llms.txt' | absolute_url }}" type="text/markdown">
 <link rel="alternate" href="{{ '/publications.bib' | absolute_url }}" type="application/x-bibtex" title="R-LEAF bibliography">
+{% if page.collection == 'resources' %}
+{% assign writer = site.data.authors[page.author] %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ page.title | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "inLanguage": "en",
+  "author": {% if writer %}{"@type": "Person", "name": {{ writer.name | jsonify }}{% if writer.web %}, "url": {{ writer.web | absolute_url | jsonify }}{% endif %}}{% else %}{"@id": {{ '/#lab' | absolute_url | jsonify }}}{% endif %},
+  "publisher": {"@id": {{ '/#lab' | absolute_url | jsonify }}}{% if page.last_modified_at %},
+  "dateModified": {{ page.last_modified_at | date_to_xmlschema | jsonify }}{% endif %}
+}
+</script>
+{% endif %}
 {% if page.url == '/research/projects/' %}
 {% assign projects = site.data.projects %}
 <script type="application/ld+json">
@@ -39,7 +55,9 @@
     "url": {{ page.url | absolute_url | jsonify }},
     "description": {{ page.excerpt | default: person.topics | strip_html | strip | jsonify }},
     "image": {{ person.avatar | default: 'bio-photo.jpg' | prepend: '/assets/people/' | absolute_url | jsonify }}{% unless person.end %},
-    "affiliation": {"@id": {{ '/#lab' | absolute_url | jsonify }}}{% endunless %}{% if person.social %},
+    "affiliation": {"@id": {{ '/#lab' | absolute_url | jsonify }}}{% else %},
+    "alumniOf": {"@id": {{ '/#lab' | absolute_url | jsonify }}}{% endunless %}{% if person.topics %},
+    "knowsAbout": {{ person.topics | split: ', ' | jsonify }}{% endif %}{% if person.social %},
     "sameAs": [{% for link in person.social %}{{ link[1][1] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]{% endif %}
   }
 }
@@ -53,7 +71,7 @@
 {% if page.paper.conference %}<meta name="citation_conference_title" content="{{ page.paper.conference | escape }}">{% endif %}
 {% if page.paper.journal %}<meta name="citation_journal_title" content="{{ page.paper.journal | escape }}">{% endif %}
 {% if page.paper.doi %}<meta name="citation_doi" content="{{ page.paper.doi | escape }}">{% endif %}
-{% if page.paper.pdf %}<meta name="citation_pdf_url" content="{{ page.paper.pdf | absolute_url }}">{% endif %}
+{% if page.paper.source_pdf %}<meta name="citation_pdf_url" content="{{ page.paper.pdf | absolute_url }}">{% endif %}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
