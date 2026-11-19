@@ -13,9 +13,9 @@ mapping, state estimation, control and robot interaction with natural environmen
 
 ## Laboratory
 
-- [Research areas]({{ '/research/' | absolute_url }}): Perception and mapping, navigation and mobility, interaction with natural environments, and selected studies.
+- [Research]({{ '/research/' | absolute_url }}): Perception and mapping, navigation and control, interaction with non-rigid environments, and selected papers with research writeups.
 - [Projects]({{ '/research/projects/' | absolute_url }}): ORICA, the research programme led by Johann Laconte at INRAE.
-- [Publications]({{ '/publications/' | absolute_url }}): References with verified links to arXiv, IEEE, publishers, DOI records and HAL.
+- [Publications]({{ '/publications/' | absolute_url }}): Bibliography by year, with links to arXiv, IEEE, publishers, DOI records and HAL.
 - [BibTeX bibliography]({{ '/publications.bib' | absolute_url }}): Machine-readable references and source identifiers.
 - [People]({{ '/people/' | absolute_url }}): Researchers, doctoral students and alumni, with available academic profiles.
 - [Resources]({{ '/resources/' | absolute_url }}): Student information and practical research guides.
@@ -34,7 +34,12 @@ mapping, state estimation, control and robot interaction with natural environmen
 
 ## Recent publications
 
-{% for publication in site.data.home_publications %}- [{{ publication.title }}]({{ publication.url }}): {{ publication.byline }} {% if publication.date %}{{ publication.date | date: '%Y-%m-%d' }}{% else %}{{ publication.year }}{% endif %}. {{ publication.status }}. {{ publication.description }}
+{% for publication in site.data.home_publications %}- [{{ publication.title }}]({{ publication.source_url }}): {{ publication.authors | join: ', ' }}. {{ publication.date }}, {{ publication.venue }}. {{ publication.status }}. {{ publication.summary }} [Research notes]({{ publication.url | absolute_url }}).
+{% endfor %}
+
+## Student information and guides
+
+{% for resource in site.resources %}- [{{ resource.title }}]({{ resource.url | absolute_url }}): {{ resource.description }}
 {% endfor %}
 
 ## Selected work

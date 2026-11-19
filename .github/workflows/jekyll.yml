@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [master, main]
   workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * 1'
 
 permissions:
   contents: read
@@ -24,6 +26,10 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+      - name: Check publication sync
+        run: bundle exec ruby scripts/test_publications.rb
+      - name: Refresh publications from HAL
+        run: bundle exec ruby scripts/update_publications.rb
       - name: Build site
         run: bundle exec jekyll build
         env:
@@ -31,10 +37,10 @@ jobs:
       - name: Check pages and links
         run: python3 scripts/check_site.py
       - uses: actions/upload-pages-artifact@v3
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
 
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     needs: build
     runs-on: ubuntu-latest
     permissions:

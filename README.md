@@ -18,10 +18,10 @@ Open http://localhost:4000.
 ## Content
 
 - `_people/` and `_data/authors.yml`: team profiles.
-- `_research/` and `_data/research_areas.yml`: research pages and overview.
+- `_research/`: article pages and the automatic homepage selection.
+- `_data/research_areas.yml`: research themes.
 - `_data/projects.yml`: projects led by Johann.
-- `_bibliography/references.bib`: publications.
-- `_data/home_publications.yml`: three published papers featured on the homepage.
+- `_bibliography/references.bib`: bibliography, refreshed from HAL at each build and weekly through GitHub Actions.
 - `_resources/`: student information and research guides.
 
 Drafts in `_drafts/` are excluded from the site.
@@ -29,6 +29,7 @@ Drafts in `_drafts/` are excluded from the site.
 ## Check before publishing
 
 ```sh
+bundle exec ruby scripts/test_publications.rb
 JEKYLL_ENV=production bundle exec jekyll build
 python3 scripts/check_site.py
 ```

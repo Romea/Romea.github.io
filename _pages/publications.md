@@ -1,15 +1,16 @@
 ---
 title: Publications
-excerpt: "Publications by R-LEAF members and collaborators, with direct links to arXiv, IEEE, publishers, DOI records and HAL."
+excerpt: "Publications by Johann Laconte, R-LEAF members and collaborators, with links to IEEE, DOI records, arXiv and HAL."
 permalink: /publications/
 layout: single
 ---
 
-Publications by Johann Laconte, current and former members of his research group,
-and their collaborators, listed by year. Conference and workshop papers,
-preprints, posters and theses are identified in the references. Links lead to
-the published version or an available open archive.
+Publications by Johann Laconte, students and collaborators.
 
-[Download the bibliography](/publications.bib) · [Research projects](/research/)
+[Download BibTeX](/publications.bib)
 
 {% bibliography --query @*[scope != personal] %}
+
+Johann Laconte's records are also available on
+[Google Scholar](https://scholar.google.fr/citations?user=cVFALvkAAAAJ) and
+[HAL](https://cv.hal.science/johann-laconte).

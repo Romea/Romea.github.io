@@ -1,11 +1,15 @@
 ---
 title: "Information for new students"
+author: j_laconte
+resource_category: joining
+order: 2
+icon: fas fa-compass
 description: "Practical information on research tools, communication and getting started at the laboratory."
 header:
-  teaser: assets/images/robot_300x200.jpg
+  teaser: /assets/images/field/montoldre-farm.webp
 ---
 
-![intro figure](/assets/images/robot_1200x500.jpg)
+<img class="resource-banner" src="/assets/images/field/montoldre-farm.webp" alt="Experimental farm and fields at Montoldre" width="1200" height="300">
 
 Download the [PhD Guide](https://dred.uca.fr/etudes-doctoralesbr-hdr/etudes-doctorales/espace-des-doctorants/guide-du-doctorant) from the doctoral school.
 

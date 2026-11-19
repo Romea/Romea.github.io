@@ -1,11 +1,13 @@
 ---
 title: "Tips for writing a robotics conference paper"
+author: j_laconte
+resource_category: reading-writing
+order: 2
+icon: far fa-file-lines
 description: "Notes on preparing a robotics paper, from the research question to the experiments and references."
 header:
-  teaser: assets/images/resources/paper_300x200.png
+  teaser: /assets/images/field/montoldre-landscape.webp
 ---
-
-![intro figure](/assets/images/resources/paper.png)
 
 This post presents a few guidelines on how to write a paper for a robotics conference, mostly intended for ICRA and IROS.
 First, check the required number of pages for the paper and use the correct template from the conference website. 

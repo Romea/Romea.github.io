@@ -1,30 +1,39 @@
 ---
 title: Research
-excerpt: "R-LEAF research on perception, mapping, autonomous navigation and robot interaction with natural environments."
-layout: research
+excerpt: >-
+  We study perception, navigation and robot interaction with natural environments,
+  with applications in agriculture and environmental surveying.
+layout: single
 permalink: /research/
-collection: research
-entries_layout: grid
 classes: wide
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.45"
+  overlay_image: /assets/images/splash.webp
 ---
 
-Our research concerns robots working in natural and agricultural environments.
-We combine mathematical models, perception and control with field experiments.
-
-## Research areas
-
-<div class="grid__wrapper research-areas">
+<div class="research-areas">
 {% for area in site.data.research_areas %}
-  <section class="grid__item">
+  <section class="research-area">
     <img src="{{ area.image | relative_url }}" alt="{{ area.alt | escape }}" width="800" height="450" loading="lazy">
-    <h3>{{ area.title }}</h3>
-    <p>{{ area.description }}</p>
+    <div><h2>{{ area.title }}</h2><p>{{ area.description }}</p></div>
   </section>
 {% endfor %}
 </div>
 
-## Projects
+<div class="section-heading">
+  <h2 id="publications">Publications</h2>
+  <a href="{{ '/publications/' | relative_url }}">Full bibliography</a>
+</div>
 
-[ORICA](/research/projects/) is the research programme led by Johann Laconte
-at INRAE. It brings together work on perception, navigation and interaction
-with deformable natural environments.
+<div class="publication-list">
+{% for publication in site.data.publications %}
+  {% include publication.html %}
+{% endfor %}
+</div>
+
+## Work with us
+
+For internships, PhD projects or a research visit, see the
+[prospective student guide](/resources/prospectiveStudents/) or
+[contact Johann Laconte](/contact/).

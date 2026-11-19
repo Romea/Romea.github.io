@@ -2,9 +2,16 @@
 title: "Feeling the Force: A Nuanced Physics-based Traversability Sensor for Navigation in Unstructured Vegetation"
 year: 2025
 reference: khizar2025feeling
-excerpt: "A wire-based force sensor measures vegetation resistance to support traversability assessment and navigation in natural environments."
+author: z_khizar
+publication_date: "2025-09"
+publication_type: conference
+publication_status: published
+venue: ECMR
+image_credit: true
+image_alt: Robot fitted with a force sensor moving through tall grass
+excerpt: "Measuring the resistance of vegetation with a force sensor mounted on a robot."
 header:
-  teaser: /assets/images/cards/feeling_the_force.webp
+  teaser: /assets/images/publications/feeling-the-force.webp
 ---
 
 ![Vegetation in a field environment](/assets/images/research/feeling_the_force/teaser.jpg)
