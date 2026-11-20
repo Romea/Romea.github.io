@@ -38,5 +38,5 @@ During the initial months, concentrate on two primary tasks:
 - **Join the Lab's Slack:** Explore the various channels.
   - Use private messages only for personal matters. Conduct research discussions in public channels to encourage collaboration.
 
-- **Join the Research Unit's Teams:** Access higher-level information and coordination.
-  - First, [activate your Microsoft license](https://www.microsoft.com/en-us/education), then ask a colleague to invite you to the relevant channels.
+- **Join the Research Unit's chat:** Access higher-level information and coordination at the research unit level
+  - First, [activate your Tchap account](https://tchap.numerique.gouv.fr/en/), then ask a colleague to invite you to the relevant channels.
